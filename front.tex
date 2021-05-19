@@ -1,0 +1,40 @@
+\documentclass{extarticle}
+    \usepackage{graphicx}
+	\usepackage{xcolor}
+    \usepackage{geometry}        
+		\geometry{
+			papersize={42mm,153mm},
+			total={42mm,153mm},
+			top=0mm,
+			left=0mm, 
+		}     
+    \newlength{\temph}
+    \setlength{\unitlength}{1mm}
+    \usepackage[{absolute,overlay}]{textpos}
+    \TPGrid[0mm,0mm]{42}{153}
+    
+    \begin{filecontents}{\jobname.xmpdata}
+    \Keywords{blok\sepšifrovací pomůcky}
+    \Title{Šifrovací pomůcky} 
+    \Author{Organizátoři hry Navíc}
+    \end{filecontents}
+    
+\begin{document}
+\pagecolor{black}
+\pagestyle{empty}
+
+
+\begin{textblock}{42}(1,2)
+\vfill
+{\centerline{\includegraphics[height=5mm]{tools/images/logo-navic.pdf}}} 
+\vfill
+\end{textblock}
+
+\begin{textblock}{38}(2,8)
+\vfill
+{\centerline{\includegraphics[scale=1,]{tools/main.pdf}}} 
+\vfill
+\end{textblock}
+
+
+\end{document}

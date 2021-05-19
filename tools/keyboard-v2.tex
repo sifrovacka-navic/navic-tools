@@ -1,0 +1,40 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={60mm,23mm},
+			total={59mm,21mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    
+    \definecolor{lightgray}{gray}{0.8}
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{0pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}p{\tcw}}
+\multicolumn{20}{l}{\hskip1.5pt\textbf{Klávesnice}} \\
+\kkey{\pismeno{Q}} & \kkey{\pismeno{W}} & \kkey{\pismeno{E}} & \kkey{\pismeno{R}} & \kkey{\pismeno{T}} & \kkey{\pismeno{Y}$_\mathrm{Z}$} & \kkey{\pismeno{U}} & \kkey{\pismeno{I}} & \kkey{\pismeno{O}} & \kkey{\pismeno{P}} \\ 
+& \kkey{\pismeno{A}} & \kkey{\pismeno{S}} & \kkey{\pismeno{D}} & \kkey{\pismeno{F}} & \kkey{\pismeno{G}} & \kkey{\pismeno{H}} & \kkey{\pismeno{J}} & \kkey{\pismeno{K}} & \kkey{\pismeno{L}} &  \\ 
+&& \kkey{\pismeno{Z}$_\mathrm{Y}$} &\kkey{\pismeno{X}} &\kkey{\pismeno{C}} &\kkey{\pismeno{V}} &\kkey{\pismeno{B}} &\kkey{\pismeno{N}} &\kkey{\pismeno{M}} & &&&\\
+\end{tabularx}
+
+\end{document}

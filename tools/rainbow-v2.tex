@@ -1,0 +1,45 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={42mm,40mm},
+			total={40mm,38mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+        
+    \usepackage{amssymb} 
+         
+    \newlength{\temptextw}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{P{12mm}|P{3.5mm}P{3.5mm}P{3.5mm}|P{3.5mm}P{3.5mm}P{3.5mm}}
+\textbf{Duha} &R & G & B & C & M & Y \\
+\cellcolor{OrangeRed} \pismeno{Č:R} & \textcolor{OrangeRed}{$\blacksquare$}&  & &&\textcolor{magenta}{$\blacksquare$}& \textcolor{Goldenrod}{$\blacksquare$}\\
+\cellcolor{BurntOrange} \pismeno{O:O} & \textcolor{OrangeRed}{$\blacksquare$} & \textcolor{ForestGreen}{\tiny \raisebox{0.3em}{$\blacksquare$}} & &&\textcolor{magenta}{\tiny \raisebox{0.3em}{$\blacksquare$}}& \textcolor{Goldenrod}{$\blacksquare$}\\
+\cellcolor{Goldenrod} \pismeno{Ž:Y} & \textcolor{OrangeRed}{$\blacksquare$} & \textcolor{ForestGreen}{$\blacksquare$} & &&& \textcolor{Goldenrod}{$\blacksquare$}\\
+\cellcolor{ForestGreen} \pismeno{Z:G} & \cellcolor{black} & \textcolor{ForestGreen}{$\blacksquare$} &  & \textcolor{cyan}{$\blacksquare$} && \textcolor{Goldenrod}{$\blacksquare$}\\
+\cellcolor{NavyBlue} \pismeno{M:B} &  &  & \textcolor{NavyBlue}{$\blacksquare$} &\textcolor{cyan}{$\blacksquare$}& \textcolor{magenta}{\tiny \raisebox{0.3em}{$\blacksquare$}}&\\
+\cellcolor{Plum} \pismeno{F:V} & \textcolor{OrangeRed}{$\blacksquare$} & & \textcolor{NavyBlue}{$\blacksquare$} &\textcolor{cyan}{\tiny \raisebox{0.3em}{$\blacksquare$}}& \textcolor{magenta}{$\blacksquare$}&\\
+\end{tabularx}
+
+\end{document}

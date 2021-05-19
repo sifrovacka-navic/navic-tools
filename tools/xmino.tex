@@ -1,0 +1,44 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={36mm,39mm},
+			total={34mm,37mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    \setlength{\arrayrulewidth}{2.39\arrayrulewidth}
+    
+    \input{macros}
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{YYYY|YY}
+%\multicolumn{4}{c}{\centering{\includegraphics{alphabets/pentomino/def.pdf}}} & \multicolumn{2}{c}{\centering{\includegraphics{alphabets/tetromino/def.pdf}}}  \\
+\pentomino{f} & \pismeno{F} & \pentomino{u} & \pismeno{U} & \tetromino{i} & \pismeno{I} \\
+\pentomino{i} & \pismeno{I} & \pentomino{v} & \pismeno{V} & \tetromino{j} & \pismeno{J} \\
+\pentomino{l} & \pismeno{L} & \pentomino{w} & \pismeno{W} & \tetromino{l} & \pismeno{L} \\
+\pentomino{n} & \pismeno{N} & \pentomino{x} & \pismeno{X} & \tetromino{o} & \pismeno{O} \\
+\pentomino{p} & \pismeno{P} & \pentomino{y} & \pismeno{Y} &\tetromino{s} & \pismeno{S} \\
+\pentomino{t} & \pismeno{T} & \pentomino{z} & \pismeno{Z} & \tetromino{t} & \pismeno{T}\\
+ & & & & \tetromino{z} & \pismeno{Z}\\
+\end{tabularx}
+
+\end{document}

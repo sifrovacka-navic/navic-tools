@@ -1,0 +1,49 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={60mm,54mm},
+            total={58mm,52mm},
+            top=1mm,
+            left=1mm,
+        %height_spec, 
+        }
+    
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\ts}[1]{\raisebox{-0.11em}{\tiny{#1}}}
+    \usepackage[euler]{textgreek}
+    \usepackage{amssymb}
+\begin{document}
+%\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{2pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{C{5mm}YYYYYYYY}
+\multicolumn{9}{l}{\textbf{Braille naopak}}\\
+& \rightA & \rightB & \rightC & \rightD & \rightE & \rightF & \rightG & \rightH \\
+\leftA & \td{\square}& \td{‘} & \ts{min.} & \td{\textalpha} & \ts{ver.} & \td{\textOmega} & \ts{caps.} & \td{|} \\
+\leftB & \td{A} & \td{C} & \td{E} & \td{D} & \td{á} & \td{č} & \td{š} & \td{ď} \\
+\leftC & \td{,} & \td{I} & \td{:} & \td{J} & \td{?} & \td{ó} & \td{+} & \td{ř} \\
+\leftD & \td{B} & \td{F} & \td{G} & \td{H} & \td{ě} & \td{ň} & \td{ť} & \td{/} \\
+\leftE & \td{.} & \td{í} & \td{*} & \td{é} & \td{-} & \td{ú} & \td{)} & \td{\#} \\
+\leftF & \td{K} & \td{M} & \td{O} & \td{N} & \td{U} & \td{X} & \td{Z} & \td{Y} \\
+% \leftG & \td{;} & \td{S} & \td{!} & \td{T} & \td{(} & \td{ž} & \td{"} & \td{ů} \\
+\leftG & \td{;} & \td{S} & \td{!} & \td{T} & \td{(} & \td{ž}  & \td{‘‘} & \td{ů} \\
+\leftH & \td{L} & \td{P} & \td{R} & \td{Q} & \td{V} & \td{ý} & \td{W} & \td{\rule{0.6em}{0.6em}} \\
+\end{tabularx}
+
+
+\end{document}
+
+
+

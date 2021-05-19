@@ -1,0 +1,44 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={60mm,54mm},
+            total={58mm,52mm},
+            top=1mm,
+            left=1mm,
+            %height_spec, 
+        }
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+
+\begin{document}
+%\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{2pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{C{5mm}YYYYYYYY}
+\multicolumn{9}{l}{\hskip-0.5pt\textbf{Semafor naopak}}\\
+& \handA & \handB & \handC & \handD & \handE & \handF & \handG & \handH \\
+\handA &        & \td{A} & \td{B} & \td{C} & \td{D} & \td{E} & \td{F} & \td{G} \\
+\handB & \td{A} &        & \td{H} & \td{I} & \td{K} & \td{L} & \td{M} & \td{N} \\
+\handC & \td{B} & \td{H} &        & \td{O} & \td{P} & \td{Q} & \td{R} & \td{S} \\
+\handD & \td{C} & \td{I} & \td{O} &        & \td{T} & \td{U} & \td{Y} & \td{!!} \\
+\handE & \td{D} & \td{K} & \td{P} & \td{T} &        & \td{\#} & \td{J} & \td{V} \\
+\handF & \td{E} & \td{L} & \td{Q} & \td{U} & \td{\#} &        & \td{W} & \td{X} \\
+\handG & \td{F} & \td{M} & \td{R} & \td{Y} & \td{J} & \td{W} &        & \td{Z} \\
+\handH & \td{G} & \td{N} & \td{S} & \td{!!} & \td{V} & \td{X} & \td{Z} &        \\
+\end{tabularx}
+
+\end{document}
+
+
+

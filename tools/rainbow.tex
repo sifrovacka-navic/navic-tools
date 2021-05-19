@@ -1,0 +1,43 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={34mm,39mm},
+			total={29mm,37mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+%\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{cl}
+\cellcolor{OrangeRed} \pismeno{Č:R} ~ & \pismeno{nomin.} \\
+\cellcolor{BurntOrange} \pismeno{O:O} ~ & \pismeno{genit.} \\
+\cellcolor{Goldenrod} \pismeno{Ž:Y} ~ & \pismeno{dativ} \\
+\cellcolor{ForestGreen} \pismeno{Z:G} ~ & \pismeno{akuzat.} \\
+\cellcolor{NavyBlue} \pismeno{M:B} ~ & \pismeno{vokat.} \\
+\cellcolor{BlueViolet} \pismeno{I:I} ~ & \pismeno{lokál} \\
+\cellcolor{Violet} \pismeno{F:V} ~ & \pismeno{instrum.} \\
+\end{tabularx}
+
+\end{document}

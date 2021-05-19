@@ -1,0 +1,41 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+			papersize={60mm,23.3mm},
+			total={58mm,21mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \definecolor{lightgray}{gray}{0.8}
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+
+\begin{document}
+%\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{0pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{YYY|YYY|YYY}
+\multicolumn{9}{l}{\hskip1.5pt\textbf{Velký polský kříž} (bez Ch)} \\
+\pismeno{A} & \pismeno{B} & \pismeno{C} &\pismeno{D} & \pismeno{E} & \pismeno{F} &\pismeno{G} & \pismeno{H} & \pismeno{I} \\
+\hline
+\pismeno{J} & \pismeno{K} &\pismeno{L} & \pismeno{M} & \pismeno{N} &\pismeno{O} & \pismeno{P} & \pismeno{Q} & \pismeno{R} \\
+\hline
+\pismeno{S} & \pismeno{T} &\pismeno{U} & \pismeno{V} & \pismeno{W} &\pismeno{X} & \pismeno{Y} & \pismeno{Z} & \\
+\end{tabularx}
+
+\end{document}

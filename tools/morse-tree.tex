@@ -1,0 +1,41 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+			papersize={96mm,28mm},
+			total={94mm,26mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+        
+    \definecolor{lightgray}{gray}{0.8}
+    \setlength{\arrayrulewidth}{0.7pt}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.17em}{\large{#1}}}
+    \newcommand{\pismenko}[1]{\raisebox{-0.17em}{\small{#1}}}
+    \newcommand{\tecka}[1]{\cdashline{#1}[\arrayrulewidth/2pt]}
+    \newcommand{\carka}[1]{\cline{#1}}%{\cdashline{#1}[26\arrayrulewidth/3pt]}
+    
+    \usepackage{arydshln}
+    
+    \newcolumntype{M}{>{\centering\arraybackslash}p{1.14em}}
+    \ADLdrawingmode{1}
+\begin{document}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\catcode`\-=12 % has to be specified due to a conflict with line dashing package
+\begin{tabular}{MMMMMMMMMMMMMMMM}
+\multicolumn{16}{l}{\textbf{Morseovkový strom}}\\ \tecka{1-8} \carka{9-16}
+\multicolumn{8}{c}{\pismeno{E}} & \multicolumn{8}{c}{\pismeno{T}} \\ \tecka{1-4} \carka{5-8} \tecka{9-12} \carka{13-16}
+\multicolumn{4}{c}{\pismeno{I}} &\multicolumn{4}{c}{\pismeno{A}} & \multicolumn{4}{c}{\pismeno{N}} &\multicolumn{4}{c}{\pismeno{M}} \\ \tecka{1-2} \carka{3-4} \tecka{5-6} \carka{7-8} \tecka{9-10} \carka{11-12} \tecka{13-14} \carka{15-16}
+\multicolumn{2}{c}{\pismeno{S}} &\multicolumn{2}{c}{\pismeno{U}} & \multicolumn{2}{c}{\pismeno{R}} &\multicolumn{2}{c}{\pismeno{W}} & \multicolumn{2}{c}{\pismeno{D}} &\multicolumn{2}{c}{\pismeno{K}} & \multicolumn{2}{c}{\pismeno{G}} &\multicolumn{2}{c}{\pismeno{O}} \\ \tecka{1-1} \carka{2-2} \tecka{3-3} \carka{4-4} \tecka{5-5} \carka{6-6} \tecka{7-7} \carka{8-8} \tecka{9-9} \carka{10-10} \tecka{11-11} \carka{12-12} \tecka{13-13} \carka{14-14} \tecka{15-15} \carka{16-16}
+\pismeno{H} & \pismeno{V} & \pismeno{F} &  & \pismeno{L} & \pismeno{\phantom{M}} & \pismeno{P} & \pismeno{J} & \pismeno{B} & \pismeno{X} & \pismeno{C} & \pismeno{Y} & \pismeno{Z} & \pismeno{Q} &  & \pismenko{Ch} \\ 
+\end{tabular}
+
+\end{document}

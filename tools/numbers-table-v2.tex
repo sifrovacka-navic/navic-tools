@@ -1,0 +1,70 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={60mm,144mm},
+            total={58mm,142mm},
+            top=1mm,
+            left=1mm,
+            %height_spec, 
+        }
+    
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    
+    \definecolor{lightgray}{gray}{0.8}
+    \newcount\numval
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\tdb}[1]{\raisebox{-0.11em}{\textbf{\large{#1}}}}
+    \newcommand{\ttt}[1]{\raisebox{-0.11em}{\large{\texttt{#1}}}}
+
+\begin{document}
+\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{2pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{C{5mm}|C{17mm}RRRR}
+& \multicolumn{5}{c}{\textbf{Číselné soustavy}}  \\
+\tdb{A} & \ttt{00001} & \ttt{001} & \ttt{1} & \ttt{1} & \ttt{1} \\
+\tdb{B} & \ttt{00010} & \ttt{002} & \ttt{2} & \ttt{2} & \ttt{2} \\
+\tdb{C} & \ttt{00011} & \ttt{010} & \ttt{3} & \ttt{3} & \ttt{3} \\
+\tdb{D} & \ttt{00100} & \ttt{011} & \ttt{4} & \ttt{4} & \ttt{4} \\
+\tdb{E} & \ttt{00101} & \ttt{012} & \ttt{5} & \ttt{5} & \ttt{5} \\
+\tdb{F} & \ttt{00110} & \ttt{020} & \ttt{6} & \ttt{6} & \ttt{6} \\
+\tdb{G} & \ttt{00111} & \ttt{021} & \ttt{7} & \ttt{7} & \ttt{7} \\
+\tdb{H} & \ttt{01000} & \ttt{022} & \ttt{10} & \ttt{8} & \ttt{8} \\
+\tdb{I} & \ttt{01001} & \ttt{100} & \ttt{11} & \ttt{9} & \ttt{9} \\
+\tdb{J} & \ttt{01010} & \ttt{101} & \ttt{12} & \ttt{10} & \ttt{A} \\
+\tdb{K} & \ttt{01011} & \ttt{102} & \ttt{13} & \ttt{11} & \ttt{B} \\
+\tdb{L} & \ttt{01100} & \ttt{110} & \ttt{14} & \ttt{12} & \ttt{C} \\
+\tdb{M} & \ttt{01101} & \ttt{111} & \ttt{15} & \ttt{13} & \ttt{D} \\
+\tdb{N} & \ttt{01110} & \ttt{112} & \ttt{16} & \ttt{14} & \ttt{E} \\
+\tdb{O} & \ttt{01111} & \ttt{120} & \ttt{17} & \ttt{15} & \ttt{F} \\
+\tdb{P} & \ttt{10000} & \ttt{121} & \ttt{20} & \ttt{16} & \ttt{10} \\
+\tdb{Q} & \ttt{10001} & \ttt{122} & \ttt{21} & \ttt{17} & \ttt{11} \\
+\tdb{R} & \ttt{10010} & \ttt{200} & \ttt{22} & \ttt{18} & \ttt{12} \\
+\tdb{S} & \ttt{10011} & \ttt{201} & \ttt{23} & \ttt{19} & \ttt{13} \\
+\tdb{T} & \ttt{10100} & \ttt{202} & \ttt{24} & \ttt{20} & \ttt{14} \\
+\tdb{U} & \ttt{10101} & \ttt{210} & \ttt{25} & \ttt{21} & \ttt{15} \\
+\tdb{V} & \ttt{10110} & \ttt{211} & \ttt{26} & \ttt{22} & \ttt{16} \\
+\tdb{W} & \ttt{10111} & \ttt{212} & \ttt{27} & \ttt{23} & \ttt{17} \\
+\tdb{X} & \ttt{11000} & \ttt{220} & \ttt{30} & \ttt{24} & \ttt{18} \\
+\tdb{Y} & \ttt{11001} & \ttt{221} & \ttt{31} & \ttt{25} & \ttt{19} \\
+\tdb{Z} & \ttt{11010} & \ttt{222} & \ttt{32} & \ttt{26} & \ttt{1A} \\
+\end{tabularx}
+
+\end{document}
+
+
+

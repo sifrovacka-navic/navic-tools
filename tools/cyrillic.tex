@@ -1,0 +1,68 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={123mm,23.3mm},
+            total={121mm,21.3mm},
+            top=1mm,
+            left=1mm,
+            %height_spec, 
+        }
+    
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    
+    \definecolor{lightgray}{gray}{0.8}
+    \newcount\numval
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+        
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\small{#1}}}
+    \newcommand{\tdb}[1]{\raisebox{-0.11em}{\textbf{\small{#1}}}}
+    \newcommand{\tdbs}[1]{\raisebox{-0.1em}{\textbf{\scriptsize{#1}}}}
+
+\begin{document}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{-0.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY}
+\multicolumn{33}{l}{\hskip2pt\textbf{Azbuka}} \\
+\hline
+\tdb{A} &	\tdb{B} &	\tdb{V} &	\tdb{G} &	\tdb{D} &	\tdbs{Je} &	\tdbs{Jo} &	\tdb{Ž} &	\tdb{Z} &	\tdb{I} &	\tdb{J} &	\tdb{K} &	\tdb{L} &	\tdb{M} &	\tdb{N} &	\tdb{O} &	\tdb{P} &	\tdb{R} &	\tdb{S} &	\tdb{T} &	\tdb{U} &	\tdb{F} &	\tdbs{Ch} &	\tdb{C} &	\tdb{Č} &	\tdb{Š} &	\tdbs{Šč} &	\tdbs{tv} &	\tdb{Y} &	\tdbs{mě} &	\tdb{E} &	\tdbs{Ju} &	\tdbs{Ja} \\
+\td{а} &	\td{б} &	\td{в} &	\td{г} &	\td{д} &	\td{е} &	\td{ё} &	\td{ж} &	\td{з} &	\td{и} &	\td{й} &	\td{к} &	\td{л} &	\td{м} &	\td{н} &	\td{о} &	\td{п} &	\td{р} &	\td{с} &	\td{т} &	\td{у} &	\td{ф} &	\td{х} &	\td{ц} &	\td{ч} &	\td{ш} &	\td{щ} &	\td{ъ} &	\td{ы} &	\td{ь} &	\td{э} &	\td{ю} &	\td{я} \\
+\td{А} &	\td{Б} &	\td{В} &	\td{Г} &	\td{Д} &	\td{Е} &	\td{Ё} &	\td{Ж} &	\td{З} &	\td{И} &	\td{Й} &	\td{К} &	\td{Л} &	\td{М} &	\td{Н} &	\td{О} &	\td{П} &	\td{Р} &	\td{С} &	\td{Т} &	\td{У} &	\td{Ф} &	\td{Х} &	\td{Ц} &	\td{Ч} &	\td{Ш} &	\td{Щ} &	\td{Ъ} &	\td{Ы} &	\td{Ь} &	\td{Э} &	\td{Ю} &	\td{Я} \\
+\end{tabularx}
+
+\end{document}
+
+% \begin{tabularx}{\textwidth}{YYYYYYYYY}
+% \multicolumn{9}{l}{\textbf{Azbuka}} \\
+% \tdb{A} & \tdb{B} & \tdb{V} & \tdb{G} & \tdb{D} & \tdb{Je} & \tdb{Jo} & \tdb{Ž} & \tdb{Z} \\
+% \td{а} & \td{б} & \td{в} & \td{г} & \td{д} & \td{е} & \td{ё} & \td{ж} & \td{з} \\
+% \td{А} & \td{Б} & \td{В} & \td{Г} & \td{Д} & \td{Е} & \td{Ё} & \td{Ж} & \td{З} \\
+% \hline        
+% \tdb{I} & \tdb{J} & \tdb{K} & \tdb{L} & \tdb{M} & \tdb{N} & \tdb{O} & \tdb{P} & \tdb{R} \\
+% \td{и} & \td{й} & \td{к} & \td{л} & \td{м} & \td{н} & \td{о} & \td{п} & \td{р} \\
+% \td{И} & \td{Й} & \td{К} & \td{Л} & \td{М} & \td{Н} & \td{О} & \td{П} & \td{Р} \\
+% \hline        
+% \tdb{S} & \tdb{T} & \tdb{U} & \tdb{F} & \tdb{Ch} & \tdb{Ch} & \tdb{Č} & \tdb{Š} & \tdb{Šč} \\
+% \td{с} & \td{т} & \td{у} & \td{ф} & \td{х} & \td{ц} & \td{ч} & \td{ш} & \td{щ} \\
+% \td{С} & \td{Т} & \td{У} & \td{Ф} & \td{Х} & \td{Ц} & \td{Ч} & \td{Ш} & \td{Щ} \\
+% \hline        
+% \tdb{tv.} & \tdb{Y} & \tdb{m.} & \tdb{E} & \tdb{Ju} & \tdb{Ja} & \tdb{} & \tdb{} & \tdb{} \\
+% \td{ъ} & \td{ы} & \td{ь} & \td{э} & \td{ю} & \td{я} & \td{} & \td{} & \td{} \\
+% \td{Ъ} & \td{Ы} & \td{Ь} & \td{Э} & \td{Ю} & \td{Я} & \td{} & \td{} & \td{} \\
+% \end{tabularx}
+
+
+

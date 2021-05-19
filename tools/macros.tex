@@ -1,0 +1,129 @@
+\newcommand{\braille}[1]{%
+\raisebox{-0.22em}{\includegraphics[height=1em]{alphabets/braille-w2b/#1.pdf}}%
+}
+
+\newcommand{\rightA}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r0.pdf}}}
+\newcommand{\rightB}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r1.pdf}}}
+\newcommand{\rightC}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r2.pdf}}}
+\newcommand{\rightD}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r3.pdf}}}
+\newcommand{\rightE}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r4.pdf}}}
+\newcommand{\rightF}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r5.pdf}}}
+\newcommand{\rightG}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r6.pdf}}}
+\newcommand{\rightH}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-r7.pdf}}}
+\newcommand{\leftA}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l0.pdf}}}
+\newcommand{\leftB}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l1.pdf}}}
+\newcommand{\leftC}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l2.pdf}}}
+\newcommand{\leftD}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l3.pdf}}}
+\newcommand{\leftE}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l4.pdf}}}
+\newcommand{\leftF}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l5.pdf}}}
+\newcommand{\leftG}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l6.pdf}}}
+\newcommand{\leftH}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/braille/dots-l7.pdf}}}
+
+
+\newcommand{\flag}[1]{%
+\raisebox{-0.23em}{\includegraphics[height=1em]{alphabets/flag-w2b/#1.pdf}}%
+}
+
+\newcommand{\spacer}{\hskip 0.015em}
+\newcommand{\morsedot}{\raisebox{0.205em}{.}}
+\newcommand{\morse}[1]{
+    \IfEqCase{#1}{%
+    {a}{\morsedot{}-}%
+    {b}{-\morsedot{}\morsedot{}\morsedot{}}%
+    {c}{-\morsedot{}-\morsedot{}}%
+    {d}{-\morsedot{}\morsedot{}}%
+    {e}{\morsedot{}}%
+    {f}{\morsedot{}\morsedot{}-\morsedot{}}%
+    {g}{-\spacer{}-\morsedot{}}%
+    {h}{\morsedot{}\morsedot{}\morsedot{}\morsedot{}}%
+    {i}{\morsedot{}\morsedot{}}%
+    {j}{\morsedot{}-\spacer{}-\spacer{}-}%
+    {k}{-\morsedot{}-}%
+    {l}{\morsedot{}-\morsedot{}\morsedot{}}%
+    {m}{-\spacer{}-}%
+    {n}{-\morsedot{}}%
+    {o}{-\spacer{}-\spacer{}-}%
+    {p}{\morsedot{}-\spacer{}-\morsedot{}}%
+    {q}{-\spacer{}-\morsedot{}-}%
+    {r}{\morsedot{}-\morsedot{}}%
+    {s}{\morsedot{}\morsedot{}\morsedot{}}%
+    {t}{-}%
+    {u}{\morsedot{}\morsedot{}-}%
+    {v}{\morsedot{}\morsedot{}\morsedot{}-}%
+    {w}{\morsedot{}-\spacer{}-}%
+    {x}{-\morsedot{}\morsedot{}-}%
+    {y}{-\morsedot{}-\spacer{}-}%
+    {z}{-\spacer{}-\morsedot{}\morsedot{}}%
+    {0}{-\spacer{}-\spacer{}-\spacer{}-\spacer{}-}%
+    {1}{\morsedot{}-\spacer{}-\spacer{}-\spacer{}-}%
+    {2}{\morsedot{}\morsedot{}-\spacer{}-\spacer{}-}%
+    {3}{\morsedot{}\morsedot{}\morsedot{}-\spacer{}-}%
+    {4}{\morsedot{}\morsedot{}\morsedot{}\morsedot{}-}%
+    {5}{\morsedot{}\morsedot{}\morsedot{}\morsedot{}\morsedot{}}%
+    {6}{-\morsedot{}\morsedot{}\morsedot{}\morsedot{}}%
+    {7}{-\spacer{}-\morsedot{}\morsedot{}\morsedot{}}%
+    {8}{-\spacer{}-\spacer{}-\morsedot{}\morsedot{}}%
+    {9}{-\spacer{}-\spacer{}-\spacer{}-\morsedot{}}%
+    }[\PackageError{morse}{This charactter has no morse equivalent: #1}{}]%
+}
+
+\newcommand{\letterval}[1]{
+    \IfEqCase{#1}{%
+    {a}{1}%
+    {b}{2}%
+    {c}{3}%
+    {d}{4}%
+    {e}{5}%
+    {f}{6}%
+    {g}{7}%
+    {h}{8}%
+    {i}{9}%
+    {j}{10}%
+    {k}{11}%
+    {l}{12}%
+    {m}{13}%
+    {n}{14}%
+    {o}{15}%
+    {p}{16}%
+    {q}{17}%
+    {r}{18}%
+    {s}{19}%
+    {t}{20}%
+    {u}{21}%
+    {v}{22}%
+    {w}{23}%
+    {x}{24}%
+    {y}{25}%
+    {z}{26}%
+    }[\PackageError{letterval}{This charactter has no numeric value: #1}{}]%
+}
+
+\newcommand{\semaphore}[1]{%
+\raisebox{-0.28em}{\includegraphics[height=1.1em]{alphabets/semaphore-w2b/#1.pdf}}%
+}
+
+\newcommand{\handA}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand0.pdf}}}
+\newcommand{\handB}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand1.pdf}}}
+\newcommand{\handC}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand2.pdf}}}
+\newcommand{\handD}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand3.pdf}}}
+\newcommand{\handE}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand4.pdf}}}
+\newcommand{\handF}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand5.pdf}}}
+\newcommand{\handG}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand6.pdf}}}
+\newcommand{\handH}{\raisebox{-0.2em}{\includegraphics[height=1em]{alphabets/semaphore-w2b/hand7.pdf}}}
+
+\newcommand{\segdisp}[1]{%
+\raisebox{-0.22em}{\includegraphics[height=1em]{alphabets/segment-w2b/#1.pdf}}%
+}
+
+\newcommand{\symmetry}[1]{%
+\raisebox{-0.22em}{\includegraphics[height=1em]{alphabets/symmetry-w2b/#1.pdf}}%
+}
+
+
+\newcommand{\tetromino}[1]{%
+\raisebox{-0.22em}{\includegraphics[height=1em]{alphabets/tetromino-centered/#1.pdf}}%
+}
+
+\newcommand{\pentomino}[1]{%
+\raisebox{-0.22em}{\includegraphics[height=1em]{alphabets/pentomino-centered/#1.pdf}}%
+}

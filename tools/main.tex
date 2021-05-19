@@ -1,0 +1,115 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+			papersize={38mm,143mm},
+			total={38mm,143mm},
+			top=0mm,
+			left=0mm,
+			%height_spec, 
+		}
+        
+    \input{macros}
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    
+    \definecolor{lightgray}{gray}{0.8}
+    \newcount\numval
+    
+    \newcommand*{\shifttext}[2]{%
+    \settowidth{\@tempdima}{#2}%
+    \makebox[\@tempdima]{\hspace*{#1}#2}%
+    }
+    
+    \newcommand{\makerow}[2]{%
+%     \rowcolor{#2}
+    \rule{0pt}{3.8mm}\raisebox{-0.11em}{\large\letterval{#1}} &%
+    \raisebox{-0.11em}{\large\textbf{\uppercase{#1}}} &%
+    \morse{#1} &%
+    \braille{#1} &%
+    \semaphore{#1} &%
+    \flag{#1}
+    }
+    
+    \newcommand{\makenumrow}[3]{%
+%     \rowcolor{#2}
+    \rule{0pt}{3.8mm}{\settowidth{\temptextw}{{\tiny\morse{#3}}}\settowidth{\tempnumw}{{#3}}\multirow{1}{*}{\letterval{#1}%
+    \hspace{\dimexpr-\temptextw/2-\tempnumw/2-0.5pt\relax}\raisebox{-0.3em}{\tiny\morse{#3}}}} &%
+    \raisebox{-0.11em}{\large\textbf{\uppercase{#1}}} &%
+    \morse{#1} &%
+    \braille{#1} &%
+    \semaphore{#1} &%
+    \flag{#1}
+    }
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+        
+    \newlength{\thinarrayrulewidth}
+%     \setlength{\arrayrulewidth}{0.1pt}
+
+
+\begin{document}
+\pagecolor{black}
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{0pt}
+\setlength{\heavyrulewidth}{0.05pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{38mm}{P{0.6cm}Yp{0.6cm}YYY}
+\makenumrow{a}{white}{1}\\
+\hline
+\makenumrow{b}{lightgray}{2}\\
+\hline
+\makenumrow{c}{white}{3}\\
+\hline
+\makenumrow{d}{lightgray}{4}\\
+\hline
+\makenumrow{e}{white}{5}\\
+\hline
+\makenumrow{f}{lightgray}{6}\\
+\hline
+\makenumrow{g}{white}{7}\\
+\hline
+\makenumrow{h}{lightgray}{8}\\
+\hline
+\makenumrow{i}{white}{9}\\
+\hline
+\makenumrow{j}{lightgray}{0}\\
+\hline
+\makerow{k}{white}\\
+\hline
+\makerow{l}{lightgray}\\
+\hline
+\makerow{m}{white}\\
+\hline
+\makerow{n}{lightgray}\\
+\hline
+\makerow{o}{white}\\
+\hline
+\makerow{p}{lightgray}\\
+\hline
+\makerow{q}{white}\\
+\hline
+\makerow{r}{lightgray}\\
+\hline
+\makerow{s}{white}\\
+\hline
+\makerow{t}{lightgray}\\
+\hline
+\makerow{u}{white}\\
+\hline
+\makerow{v}{lightgray}\\
+\hline
+\makerow{w}{white}\\
+\hline
+\makerow{x}{lightgray}\\
+\hline
+\makerow{y}{white}\\
+\hline
+\makerow{z}{lightgray}\\
+\end{tabularx}
+
+\end{document}

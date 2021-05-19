@@ -1,0 +1,52 @@
+\documentclass{extarticle}
+    \usepackage{graphicx}
+	\usepackage{xcolor}
+    \usepackage{geometry}        
+		\geometry{
+			a4paper, landscape,
+			total={297mm,210mm},
+			top=0mm,
+			left=0mm, 
+		}     
+    \newlength{\temph}
+    \setlength{\unitlength}{1mm}
+    \usepackage[{absolute,overlay}]{textpos}
+    \TPGrid[0mm,0mm]{297}{210}
+    
+    \begin{filecontents}{\jobname.xmpdata}
+    \Keywords{blok\sepšifrovací pomůcky}
+    \Title{Šifrovací pomůcky} 
+    \Author{Organizátoři hry Navíc}
+    \end{filecontents}
+    
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{textblock}{42}(30,28)
+\vfill
+{\centerline{\includegraphics[scale=1,]{front.pdf}}} 
+\vfill
+\end{textblock}
+
+\begin{textblock}{42}(72,28)
+\vfill
+{\centerline{\includegraphics[scale=1,]{back.pdf}}} 
+\vfill
+\end{textblock}
+
+
+\begin{textblock}{42}(174,28)
+\vfill
+{\centerline{\includegraphics[scale=1,]{front.pdf}}} 
+\vfill
+\end{textblock}
+
+\begin{textblock}{42}(216,28)
+\vfill
+{\centerline{\includegraphics[scale=1,]{back.pdf}}} 
+\vfill
+\end{textblock}
+
+
+\end{document}
