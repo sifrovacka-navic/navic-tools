@@ -1,7 +1,7 @@
 SH=/bin/bash
 TEX=lualatex -interaction=nonstopmode
 
-all: alphabets | braille-lookup.pdf cyrillic.pdf greek.pdf keyboard.pdf main.pdf morse-tree.pdf numbers-table.pdf rainbow.pdf rosicrucian-polish.pdf rosicrucian-polish-v2.pdf semaphore-lookup.pdf train.pdf xmino.pdf
+all: alphabets | braille-lookup.pdf cyrillic.pdf greek.pdf keyboard.pdf main.pdf morse-tree.pdf numbers-table.pdf numbers-table-v2.pdf numbers-table-v3.pdf rainbow.pdf rosicrucian-polish.pdf rosicrucian-polish-v2.pdf semaphore-lookup.pdf train.pdf xmino.pdf
 	touch ../front.tex
 	touch ../back.tex
 	touch ../print.tex
@@ -17,7 +17,7 @@ clean:
 alphabets: 
 	cd alphabets && $(MAKE)
 
-light: braille-lookup.pdf cyrillic.pdf greek.pdf keyboard.pdf main.pdf morse-tree.pdf numbers-table.pdf rainbow.pdf rosicrucian-polish.pdf rosicrucian-polish-v2.pdf semaphore-lookup.pdf train.pdf xmino.pdf
+light: braille-lookup.pdf cyrillic.pdf greek.pdf keyboard.pdf main.pdf morse-tree.pdf numbers-table.pdf numbers-table-v2.pdf numbers-table-v3.pdf rainbow.pdf rosicrucian-polish.pdf rosicrucian-polish-v2.pdf semaphore-lookup.pdf train.pdf xmino.pdf
 	touch ../front.tex
 	touch ../back.tex
 	touch ../print.tex

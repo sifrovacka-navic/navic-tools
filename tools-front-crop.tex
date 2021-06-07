@@ -7,12 +7,14 @@
 			total={42mm,153mm},
 			top=0mm,
 			left=0mm, 
-		}     
-    \newlength{\temph}
-    \setlength{\unitlength}{1mm}
-    \usepackage[{absolute,overlay}]{textpos}
-    \TPGrid[0mm,0mm]{42}{153}
-    
+		}   
+    \usepackage[
+    % set width and height to a4 width and height + 6mm
+    width=5.0truecm, height=16.1truecm,
+    % use any combination of these options to add different cut markings
+    cam, color=white, pdftex, center
+    ]{crop}
+  
     \begin{filecontents}{\jobname.xmpdata}
     \Keywords{blok\sepšifrovací pomůcky}
     \Title{Šifrovací pomůcky} 
@@ -22,19 +24,8 @@
 \begin{document}
 \pagecolor{black}
 \pagestyle{empty}
-
-
-\begin{textblock}{40}(1,2)
-\vfill
-{\centerline{\includegraphics[width=40mm]{tools/images/logo-navic.pdf}}} 
-\vfill
-\end{textblock}
-
-\begin{textblock}{38}(2,8)
-\vfill
-{\centerline{\includegraphics[scale=1,]{tools/main.pdf}}} 
-\vfill
-\end{textblock}
-
+\noindent
+\includegraphics[width=42mm]{front.pdf}
 
 \end{document}
+

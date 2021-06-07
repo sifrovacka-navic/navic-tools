@@ -1,5 +1,6 @@
 SH=/bin/bash
 TEX=lualatex -interaction=nonstopmode
+PDFTEX=pdflatex -interaction=nonstopmode
 
 all: toolset
 
@@ -26,3 +27,10 @@ light: tools-light print convert
 
 tools-light: 
 	cd tools && $(MAKE) light
+
+crop: back.pdf front.pdf
+	$(PDFTEX) tools-back-crop.tex
+	$(PDFTEX) tools-back-crop.tex
+	$(PDFTEX) tools-front-crop.tex
+	$(PDFTEX) tools-front-crop.tex
+	pdfunite tools-front-crop.pdf tools-back-crop.pdf tools.pdf
