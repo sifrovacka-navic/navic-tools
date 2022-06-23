@@ -1,0 +1,40 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={41mm,12mm},
+			total={39mm,10mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \input{macros}
+    
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.4cm}
+    
+    \definecolor{lightgray}{gray}{0.8}
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{0pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}P{\tcw}}
+0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+\segdisp{0} & \segdisp{1} & \segdisp{2} & \segdisp{3} & \segdisp{4} & \segdisp{5} & \segdisp{6} & \segdisp{7} & \segdisp{8} & \segdisp{9} \\
+\end{tabularx}
+
+\end{document}

@@ -2,8 +2,8 @@
     \input{packages}
 	\usepackage{geometry}
 		\geometry{
-			papersize={38mm,143mm},
-			total={38mm,143mm},
+			papersize={42mm,143mm},
+			total={42mm,143mm},
 			top=0mm,
 			left=0mm,
 			%height_spec, 
@@ -28,7 +28,8 @@
     \morse{#1} &%
     \braille{#1} &%
     \semaphore{#1} &%
-    \flag{#1}
+    \flag{#1} &%
+    \segdisp{#1}
     }
     
     \newcommand{\makenumrow}[3]{%
@@ -39,7 +40,8 @@
     \morse{#1} &%
     \braille{#1} &%
     \semaphore{#1} &%
-    \flag{#1}
+    \flag{#1} &%
+    \segdisp{#1}
     }
     \newcolumntype{Y}{>{\centering\arraybackslash}X}
     \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
@@ -50,7 +52,7 @@
 
 
 \begin{document}
-\pagecolor{black}
+% \pagecolor{black}%
 \color{white}
 \parindent=0cm
 \noindent
@@ -58,7 +60,7 @@
 \setlength{\tabcolsep}{0pt}
 \setlength{\heavyrulewidth}{0.05pt}
 \renewcommand*{\arraystretch}{1.037}
-\begin{tabularx}{38mm}{P{0.6cm}Yp{0.6cm}YYY}
+\begin{tabularx}{42mm}{P{0.6cm}Yp{0.6cm}YYYY}
 \makenumrow{a}{white}{1}\\
 \hline
 \makenumrow{b}{lightgray}{2}\\

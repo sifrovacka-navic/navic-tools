@@ -1,0 +1,116 @@
+\documentclass{extarticle}
+    \usepackage{graphicx}
+	\usepackage{xcolor}
+    \usepackage{geometry}        
+		\geometry{
+			papersize={158mm,220mm},
+			total={158mm,220mm},
+			top=0mm,
+			left=0mm, 
+		}     
+    \newlength{\temph}
+    \setlength{\unitlength}{1mm}
+    \usepackage[{absolute,overlay}]{textpos}
+    \TPGrid[0mm,0mm]{158}{220}
+    
+    \begin{filecontents}{\jobname.xmpdata}
+    \Keywords{blok\sepšifrovací pomůcky}
+    \Title{Šifrovací blok} 
+    \Author{Organizátoři hry Navíc}
+    \end{filecontents}
+    
+    \definecolor{sand}{rgb}{0.913, 0.867, 0.686}
+    
+\begin{document}
+\pagecolor{black}
+\pagestyle{empty}
+
+\begin{textblock}{158}(0,0)
+\vfill
+{\centerline{\includegraphics[scale=1,]{tools/images/notebook-background-marks.pdf}}} 
+% change to notebook-background-marks.pdf for printing; notebook-background-gray.pdf for layouting
+\vfill
+\end{textblock}
+
+
+\begin{textblock}{148}(5,8)
+\vfill
+{\centerline{\includegraphics[height=8mm,]{tools/images/blok-navic-4.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(5,20)% {38mm,141.8mm}
+\vfill
+{\includegraphics[height=190.5mm]{tools/main-narrow.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(58,19.5)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/numbers-table.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(58,121)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/morse-tree.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(124,122)% {38mm,141.8mm}
+\vfill
+{\includegraphics[width=20mm]{tools/xmino.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(58,176)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/rosicrucian-polish-v2.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(103,176)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/rainbow-v2.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(103,203)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/digits.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(58,192)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/keyboard.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(135,177)% {38mm,141.8mm}
+\vfill
+{\includegraphics[height=1.4cm]{tools/images/segment-numbering.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(134,192)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/train.pdf}}
+\vfill
+\end{textblock}
+
+
+\begin{textblock}{0}(58,142)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/greek.pdf}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(58,159)% {38mm,141.8mm}
+\vfill
+{\includegraphics[scale=0.7]{tools/cyrillic.pdf}}
+\vfill
+\end{textblock}
+
+
+\end{document}

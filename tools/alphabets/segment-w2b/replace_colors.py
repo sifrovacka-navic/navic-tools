@@ -6,7 +6,7 @@ Created on Thu Jan 30 09:56:59 2020
 @author: podolnik
 """
 
-letters = list('abcdefghijklmnopqrstuvwxyz')
+letters = list('0123456789abcdefghijklmnopqrstuvwxyz')
 
 
 for l in letters:    
