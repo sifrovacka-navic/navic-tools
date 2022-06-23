@@ -1,0 +1,37 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+			papersize={60mm,27mm},
+			total={58mm,25mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \definecolor{lightgray}{gray}{0.8}
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+
+\begin{document}
+% \pagecolor{black}%
+% \color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{0pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{p{\textwidth}}
+{\hskip1.5pt\textbf{Abeceda}} \\
+A, Á, B, C, Č, D, Ď, E, É, Ě, F, G, H, Ch, I, Í, J, K, L, M, N, Ň, O, Ó, P, Q, R, Ř, S, Š, T, Ť, U, Ú, Ů, V, W, X, Y, Ý, Z, Ž \\
+\end{tabularx}
+
+\end{document}

@@ -3,36 +3,37 @@
 	\usepackage{xcolor}
     \usepackage{geometry}        
 		\geometry{
-			papersize={42mm,153mm},
-			total={42mm,153mm},
+			papersize={46mm,153mm},
+			total={46mm,153mm},
 			top=0mm,
 			left=0mm, 
 		}     
     \newlength{\temph}
     \setlength{\unitlength}{1mm}
     \usepackage[{absolute,overlay}]{textpos}
-    \TPGrid[0mm,0mm]{42}{153}
+    \TPGrid[0mm,0mm]{46}{153}
     
     \begin{filecontents}{\jobname.xmpdata}
     \Keywords{blok\sepšifrovací pomůcky}
     \Title{Šifrovací pomůcky} 
     \Author{Organizátoři hry Navíc}
     \end{filecontents}
-    
+    \definecolor{sand}{rgb}{0.913, 0.867, 0.686}
+
 \begin{document}
-\pagecolor{black}
+\pagecolor{sand}
 \pagestyle{empty}
 
 
-\begin{textblock}{40}(1,2)
+\begin{textblock}{42}(2,1)
 \vfill
-{\centerline{\includegraphics[width=40mm]{tools/images/logo-navic.pdf}}} 
+{\centerline{\includegraphics[height=6mm]{tools/images/logo-matrix.pdf}}} 
 \vfill
 \end{textblock}
 
-\begin{textblock}{38}(2,8)
+\begin{textblock}{42}(2,8)
 \vfill
-{\centerline{\includegraphics[scale=1,]{tools/main.pdf}}} 
+{\centerline{\includegraphics[width=42mm]{tools/main.pdf}}} 
 \vfill
 \end{textblock}
 

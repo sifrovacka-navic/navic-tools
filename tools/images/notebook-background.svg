@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="158mm"
    height="220mm"
    viewBox="0 0 158 220"
    version="1.1"
    id="svg473"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="blok-prebal.svg">
+   inkscape:version="1.2 (1:1.2+202205241504+da316b6974)"
+   sodipodi:docname="notebook-background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs467">
     <style
@@ -83,10 +83,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="304.28197"
-     inkscape:cy="415.40555"
+     inkscape:cx="423.25392"
+     inkscape:cy="415.1727"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="g831"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1113"
@@ -101,7 +101,10 @@
      inkscape:guide-bbox="true"
      inkscape:snap-page="true"
      inkscape:snap-intersection-paths="true"
-     inkscape:snap-center="true">
+     inkscape:snap-center="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="4.9999999,215"
        orientation="1,0"
@@ -156,7 +159,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -164,17 +166,17 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Pozadí"
-     style="display:inline">
+     style="display:none">
     <rect
        y="-4.3324349e-06"
        x="0"
        height="219.99998"
        width="157.99998"
        id="rect1514"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none" />
     <rect
        transform="translate(33.063299,-159.43431)"
-       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect611"
        width="148"
        height="210"
@@ -186,47 +188,95 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(33.063299,-159.43431)"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -28.063299,159.4343 v 3"
        id="path621"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -30.063299,164.43431 h -3"
        id="path621-1"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -28.063299,376.4343 v 3"
        id="path621-6"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -30.063299,374.43433 h -3"
        id="path621-5"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 119.9367,376.4343 v 3"
        id="path621-2"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 124.9367,374.43433 h -3"
        id="path621-3"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 119.9367,159.4343 v 3"
        id="path621-13"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.28000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 124.9367,164.43431 h -3"
        id="path621-7"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Ořez černá"
+     inkscape:groupmode="layer"
+     id="g831"
+     transform="translate(33.063299,-159.43431)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -28.063299,159.4343 v 3"
+       id="path815"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -30.063299,164.43431 h -3"
+       id="path817"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -28.063299,376.4343 v 3"
+       id="path819"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -30.063299,374.43433 h -3"
+       id="path821"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.9367,376.4343 v 3"
+       id="path823"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.9367,374.43433 h -3"
+       id="path825"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.9367,159.4343 v 3"
+       id="path827"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.9367,164.43431 h -3"
+       id="path829"
        inkscape:connector-curvature="0" />
   </g>
   <g
@@ -438,1231 +488,1029 @@
       <text
          id="text20"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,50.7263,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,50.7263,548.964)"><tspan
            id="tspan18"
            y="0"
-           x="0">1</tspan>
-      </text>
+           x="0">1</tspan></text>
       <text
          id="text24"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,520.5934)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,520.5934)"><tspan
            id="tspan22"
            y="0"
-           x="0">1</tspan>
-      </text>
+           x="0">1</tspan></text>
       <text
          id="text28"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,506.4202)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,506.4202)"><tspan
            id="tspan26"
            y="0"
-           x="0">2</tspan>
-      </text>
+           x="0">2</tspan></text>
       <text
          id="text32"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,492.247)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,492.247)"><tspan
            id="tspan30"
            y="0"
-           x="0">3</tspan>
-      </text>
+           x="0">3</tspan></text>
       <text
          id="text36"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,478.0738)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,478.0738)"><tspan
            id="tspan34"
            y="0"
-           x="0">4</tspan>
-      </text>
+           x="0">4</tspan></text>
       <text
          id="text40"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.4184,463.9887)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.4184,463.9887)"><tspan
            id="tspan38"
            y="0"
-           x="0">5</tspan>
-      </text>
+           x="0">5</tspan></text>
       <text
          id="text44"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,449.7273)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,449.7273)"><tspan
            id="tspan42"
            y="0"
-           x="0">6</tspan>
-      </text>
+           x="0">6</tspan></text>
       <text
          id="text48"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,435.5541)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,435.5541)"><tspan
            id="tspan46"
            y="0"
-           x="0">7</tspan>
-      </text>
+           x="0">7</tspan></text>
       <text
          id="text52"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,421.3809)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,421.3809)"><tspan
            id="tspan50"
            y="0"
-           x="0">8</tspan>
-      </text>
+           x="0">8</tspan></text>
       <text
          id="text56"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,22.314,407.2076)">
-        <tspan
+         transform="matrix(1,0,0,-1,22.314,407.2076)"><tspan
            id="tspan54"
            y="0"
-           x="0">9</tspan>
-      </text>
+           x="0">9</tspan></text>
       <text
          id="text60"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,393.0344)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,393.0344)"
+         y="0"><tspan
            id="tspan58"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">10</tspan>
-      </text>
+           x="0 6.0840001">10</tspan></text>
       <text
          id="text64"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,378.8612)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,378.8612)"
+         y="0"><tspan
            id="tspan62"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">11</tspan>
-      </text>
+           x="0 6.0840001">11</tspan></text>
       <text
          id="text68"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,364.6879)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,364.6879)"
+         y="0"><tspan
            id="tspan66"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">12</tspan>
-      </text>
+           x="0 6.0840001">12</tspan></text>
       <text
          id="text72"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,350.5147)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,350.5147)"
+         y="0"><tspan
            id="tspan70"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">13</tspan>
-      </text>
+           x="0 6.0840001">13</tspan></text>
       <text
          id="text76"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,336.3415)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,336.3415)"
+         y="0"><tspan
            id="tspan74"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">14</tspan>
-      </text>
+           x="0 6.0840001">14</tspan></text>
       <text
          id="text80"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,322.1683)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,322.1683)"
+         y="0"><tspan
            id="tspan78"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">15</tspan>
-      </text>
+           x="0 6.0840001">15</tspan></text>
       <text
          id="text84"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,307.995)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,307.995)"
+         y="0"><tspan
            id="tspan82"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">16</tspan>
-      </text>
+           x="0 6.0840001">16</tspan></text>
       <text
          id="text88"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.2214,293.7141)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.2214,293.7141)"
+         y="0"><tspan
            id="tspan86"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">17</tspan>
-      </text>
+           x="0 6.0840001">17</tspan></text>
       <text
          id="text92"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,279.6486)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,279.6486)"
+         y="0"><tspan
            id="tspan90"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">18</tspan>
-      </text>
+           x="0 6.0840001">18</tspan></text>
       <text
          id="text96"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,265.4753)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,265.4753)"
+         y="0"><tspan
            id="tspan94"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">19</tspan>
-      </text>
+           x="0 6.0840001">19</tspan></text>
       <text
          id="text100"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,251.3021)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,251.3021)"
+         y="0"><tspan
            id="tspan98"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">20</tspan>
-      </text>
+           x="0 6.0840001">20</tspan></text>
       <text
          id="text104"
-         style="font-variant:normal;font-weight:bold;font-size:12.15400028px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(0.9873,0,0,-1,19.2733,237.03)">
-        <tspan
+         style="font-variant:normal;font-weight:bold;font-size:12.154px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.9873,0,0,-1,19.2733,237.03)"
+         y="0"><tspan
            id="tspan102"
            sodipodi:role="line"
            y="0"
-           x="0 6.1620779">21</tspan>
-      </text>
+           x="0 6.1620779">21</tspan></text>
       <text
          id="text108"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.2212,222.7139)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.2212,222.7139)"
+         y="0"><tspan
            id="tspan106"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">22</tspan>
-      </text>
+           x="0 6.0840001">22</tspan></text>
       <text
          id="text112"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,208.7824)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,208.7824)"
+         y="0"><tspan
            id="tspan110"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">23</tspan>
-      </text>
+           x="0 6.0840001">23</tspan></text>
       <text
          id="text116"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,194.6092)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,194.6092)"
+         y="0"><tspan
            id="tspan114"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">24</tspan>
-      </text>
+           x="0 6.0840001">24</tspan></text>
       <text
          id="text120"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,180.436)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,180.436)"
+         y="0"><tspan
            id="tspan118"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">25</tspan>
-      </text>
+           x="0 6.0840001">25</tspan></text>
       <text
          id="text124"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,19.273,166.2627)">
-        <tspan
+         transform="matrix(1,0,0,-1,19.273,166.2627)"
+         y="0"><tspan
            id="tspan122"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">26</tspan>
-      </text>
+           x="0 6.0840001">26</tspan></text>
       <text
          id="text128"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,64.8995,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,64.8995,548.964)"><tspan
            id="tspan126"
            y="0"
-           x="0">2</tspan>
-      </text>
+           x="0">2</tspan></text>
       <text
          id="text132"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,79.0727,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,79.0727,548.964)"><tspan
            id="tspan130"
            y="0"
-           x="0">3</tspan>
-      </text>
+           x="0">3</tspan></text>
       <text
          id="text136"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,93.246,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,93.246,548.964)"><tspan
            id="tspan134"
            y="0"
-           x="0">4</tspan>
-      </text>
+           x="0">4</tspan></text>
       <text
          id="text140"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,107.4192,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,107.4192,548.964)"><tspan
            id="tspan138"
            y="0"
-           x="0">5</tspan>
-      </text>
+           x="0">5</tspan></text>
       <text
          id="text144"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,121.5924,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,121.5924,548.964)"><tspan
            id="tspan142"
            y="0"
-           x="0">6</tspan>
-      </text>
+           x="0">6</tspan></text>
       <text
          id="text148"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,135.7656,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,135.7656,548.964)"><tspan
            id="tspan146"
            y="0"
-           x="0">7</tspan>
-      </text>
+           x="0">7</tspan></text>
       <text
          id="text152"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,149.9389,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,149.9389,548.964)"><tspan
            id="tspan150"
            y="0"
-           x="0">8</tspan>
-      </text>
+           x="0">8</tspan></text>
       <text
          id="text156"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,164.2079,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,164.2079,548.964)"><tspan
            id="tspan154"
            y="0"
-           x="0">9</tspan>
-      </text>
+           x="0">9</tspan></text>
       <text
          id="text160"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,175.2443,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,175.2443,548.964)"
+         y="0"><tspan
            id="tspan158"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">10</tspan>
-      </text>
+           x="0 6.0840001">10</tspan></text>
       <text
          id="text164"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,189.4175,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,189.4175,548.964)"
+         y="0"><tspan
            id="tspan162"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">11</tspan>
-      </text>
+           x="0 6.0840001">11</tspan></text>
       <text
          id="text168"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,203.5908,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,203.5908,548.964)"
+         y="0"><tspan
            id="tspan166"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">12</tspan>
-      </text>
+           x="0 6.0840001">12</tspan></text>
       <text
          id="text172"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,217.764,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,217.764,548.964)"
+         y="0"><tspan
            id="tspan170"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">13</tspan>
-      </text>
+           x="0 6.0840001">13</tspan></text>
       <text
          id="text176"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,231.9372,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,231.9372,548.964)"
+         y="0"><tspan
            id="tspan174"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">14</tspan>
-      </text>
+           x="0 6.0840001">14</tspan></text>
       <text
          id="text180"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,246.1105,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,246.1105,548.964)"
+         y="0"><tspan
            id="tspan178"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">15</tspan>
-      </text>
+           x="0 6.0840001">15</tspan></text>
       <text
          id="text184"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,260.2837,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,260.2837,548.964)"
+         y="0"><tspan
            id="tspan182"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">16</tspan>
-      </text>
+           x="0 6.0840001">16</tspan></text>
       <text
          id="text188"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,274.4569,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,274.4569,548.964)"
+         y="0"><tspan
            id="tspan186"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">17</tspan>
-      </text>
+           x="0 6.0840001">17</tspan></text>
       <text
          id="text192"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,288.6301,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,288.6301,548.964)"
+         y="0"><tspan
            id="tspan190"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">18</tspan>
-      </text>
+           x="0 6.0840001">18</tspan></text>
       <text
          id="text196"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,302.8034,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,302.8034,548.964)"
+         y="0"><tspan
            id="tspan194"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">19</tspan>
-      </text>
+           x="0 6.0840001">19</tspan></text>
       <text
          id="text200"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,316.9766,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,316.9766,548.964)"
+         y="0"><tspan
            id="tspan198"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">20</tspan>
-      </text>
+           x="0 6.0840001">20</tspan></text>
       <text
          id="text204"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,331.1498,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,331.1498,548.964)"
+         y="0"><tspan
            id="tspan202"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">21</tspan>
-      </text>
+           x="0 6.0840001">21</tspan></text>
       <text
          id="text208"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,345.3231,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,345.3231,548.964)"
+         y="0"><tspan
            id="tspan206"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">22</tspan>
-      </text>
+           x="0 6.0840001">22</tspan></text>
       <text
          id="text212"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,359.4963,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,359.4963,548.964)"
+         y="0"><tspan
            id="tspan210"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">23</tspan>
-      </text>
+           x="0 6.0840001">23</tspan></text>
       <text
          id="text216"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,373.6695,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,373.6695,548.964)"
+         y="0"><tspan
            id="tspan214"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">24</tspan>
-      </text>
+           x="0 6.0840001">24</tspan></text>
       <text
          id="text220"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,387.8427,548.964)">
-        <tspan
+         transform="matrix(1,0,0,-1,387.8427,548.964)"
+         y="0"><tspan
            id="tspan218"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">25</tspan>
-      </text>
+           x="0 6.0840001">25</tspan></text>
       <text
          id="text224"
          style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,402.0182,548.9884)">
-        <tspan
+         transform="matrix(1,0,0,-1,402.0182,548.9884)"
+         y="0"><tspan
            id="tspan222"
            sodipodi:role="line"
            y="0"
-           x="0 6.0840001">26</tspan>
-      </text>
+           x="0 6.0840001">26</tspan></text>
       <text
          id="text228"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,49.0102,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,49.0102,533.5506)"><tspan
            id="tspan226"
            y="0"
-           x="0">A</tspan>
-      </text>
+           x="0">A</tspan></text>
       <text
          id="text232"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,63.6849,533.6932)">
-        <tspan
+         transform="matrix(1,0,0,-1,63.6849,533.6932)"><tspan
            id="tspan230"
            y="0"
-           x="0">B</tspan>
-      </text>
+           x="0">B</tspan></text>
       <text
          id="text236"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,77.97,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,77.97,533.5506)"><tspan
            id="tspan234"
            y="0"
-           x="0">C</tspan>
-      </text>
+           x="0">C</tspan></text>
       <text
          id="text240"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,91.3351,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,91.3351,533.5506)"><tspan
            id="tspan238"
            y="0"
-           x="0">D</tspan>
-      </text>
+           x="0">D</tspan></text>
       <text
          id="text244"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,106.6484,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,106.6484,533.5506)"><tspan
            id="tspan242"
            y="0"
-           x="0">E</tspan>
-      </text>
+           x="0">E</tspan></text>
       <text
          id="text248"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,121.0524,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,121.0524,533.5506)"><tspan
            id="tspan246"
            y="0"
-           x="0">F</tspan>
-      </text>
+           x="0">F</tspan></text>
       <text
          id="text252"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,133.8004,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,133.8004,533.5506)"><tspan
            id="tspan250"
            y="0"
-           x="0">G</tspan>
-      </text>
+           x="0">G</tspan></text>
       <text
          id="text256"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,148.0241,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,148.0241,533.5506)"><tspan
            id="tspan254"
            y="0"
-           x="0">H</tspan>
-      </text>
+           x="0">H</tspan></text>
       <text
          id="text260"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,165.1107,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,165.1107,533.5506)"><tspan
            id="tspan258"
            y="0"
-           x="0">I</tspan>
-      </text>
+           x="0">I</tspan></text>
       <text
          id="text264"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,178.7692,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,178.7692,533.5506)"><tspan
            id="tspan262"
            y="0"
-           x="0">J</tspan>
-      </text>
+           x="0">J</tspan></text>
       <text
          id="text268"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,191.2158,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,191.2158,533.5506)"><tspan
            id="tspan266"
            y="0"
-           x="0">K</tspan>
-      </text>
+           x="0">K</tspan></text>
       <text
          id="text272"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,206.3812,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,206.3812,533.5506)"><tspan
            id="tspan270"
            y="0"
-           x="0">L</tspan>
-      </text>
+           x="0">L</tspan></text>
       <text
          id="text276"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,216.9451,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,216.9451,533.5506)"><tspan
            id="tspan274"
            y="0"
-           x="0">M</tspan>
-      </text>
+           x="0">M</tspan></text>
       <text
          id="text280"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,232.8409,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,232.8409,533.5506)"><tspan
            id="tspan278"
            y="0"
-           x="0">N</tspan>
-      </text>
+           x="0">N</tspan></text>
       <text
          id="text284"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,246.8727,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,246.8727,533.5506)"><tspan
            id="tspan282"
            y="0"
-           x="0">O</tspan>
-      </text>
+           x="0">O</tspan></text>
       <text
          id="text288"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,262.1993,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,262.1993,533.5506)"><tspan
            id="tspan286"
            y="0"
-           x="0">P</tspan>
-      </text>
+           x="0">P</tspan></text>
       <text
          id="text292"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,275.1418,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,275.1418,533.5506)"><tspan
            id="tspan290"
            y="0"
-           x="0">Q</tspan>
-      </text>
+           x="0">Q</tspan></text>
       <text
          id="text296"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,290.2992,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,290.2992,533.5506)"><tspan
            id="tspan294"
            y="0"
-           x="0">R</tspan>
-      </text>
+           x="0">R</tspan></text>
       <text
          id="text300"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,305.195,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,305.195,533.5506)"><tspan
            id="tspan298"
            y="0"
-           x="0">S</tspan>
-      </text>
+           x="0">S</tspan></text>
       <text
          id="text304"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,319.1882,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,319.1882,533.5506)"><tspan
            id="tspan302"
            y="0"
-           x="0">T</tspan>
-      </text>
+           x="0">T</tspan></text>
       <text
          id="text308"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,332.1,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,332.1,533.5506)"><tspan
            id="tspan306"
            y="0"
-           x="0">U</tspan>
-      </text>
+           x="0">U</tspan></text>
       <text
          id="text312"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,346.7653,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,346.7653,533.5506)"><tspan
            id="tspan310"
            y="0"
-           x="0">V</tspan>
-      </text>
+           x="0">V</tspan></text>
       <text
          id="text316"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,358.4186,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,358.4186,533.5506)"><tspan
            id="tspan314"
            y="0"
-           x="0">W</tspan>
-      </text>
+           x="0">W</tspan></text>
       <text
          id="text320"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,375.4358,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,375.4358,533.5506)"><tspan
            id="tspan318"
            y="0"
-           x="0">X</tspan>
-      </text>
+           x="0">X</tspan></text>
       <text
          id="text324"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,389.8596,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,389.8596,533.5506)"><tspan
            id="tspan322"
            y="0"
-           x="0">Y</tspan>
-      </text>
+           x="0">Y</tspan></text>
       <text
          id="text328"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,404.365,533.5506)">
-        <tspan
+         transform="matrix(1,0,0,-1,404.365,533.5506)"><tspan
            id="tspan326"
            y="0"
-           x="0">Z</tspan>
-      </text>
+           x="0">Z</tspan></text>
       <text
          id="text332"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.8304,519.3536)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.8304,519.3536)"><tspan
            id="tspan330"
            y="0"
-           x="0">A</tspan>
-      </text>
+           x="0">A</tspan></text>
       <text
          id="text336"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.1944,505.1803)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.1944,505.1803)"><tspan
            id="tspan334"
            y="0"
-           x="0">B</tspan>
-      </text>
+           x="0">B</tspan></text>
       <text
          id="text340"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.4438,491.0071)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.4438,491.0071)"><tspan
            id="tspan338"
            y="0"
-           x="0">C</tspan>
-      </text>
+           x="0">C</tspan></text>
       <text
          id="text344"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.6357,476.8339)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.6357,476.8339)"><tspan
            id="tspan342"
            y="0"
-           x="0">D</tspan>
-      </text>
+           x="0">D</tspan></text>
       <text
          id="text348"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.7758,462.6607)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.7758,462.6607)"><tspan
            id="tspan346"
            y="0"
-           x="0">E</tspan>
-      </text>
+           x="0">E</tspan></text>
       <text
          id="text352"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,36.0065,448.4874)">
-        <tspan
+         transform="matrix(1,0,0,-1,36.0065,448.4874)"><tspan
            id="tspan350"
            y="0"
-           x="0">F</tspan>
-      </text>
+           x="0">F</tspan></text>
       <text
          id="text356"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.5813,434.3142)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.5813,434.3142)"><tspan
            id="tspan354"
            y="0"
-           x="0">G</tspan>
-      </text>
+           x="0">G</tspan></text>
       <text
          id="text360"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.6317,420.141)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.6317,420.141)"><tspan
            id="tspan358"
            y="0"
-           x="0">H</tspan>
-      </text>
+           x="0">H</tspan></text>
       <text
          id="text364"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,37.5452,405.9677)">
-        <tspan
+         transform="matrix(1,0,0,-1,37.5452,405.9677)"><tspan
            id="tspan362"
            y="0"
-           x="0">I</tspan>
-      </text>
+           x="0">I</tspan></text>
       <text
          id="text368"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,37.0304,391.7945)">
-        <tspan
+         transform="matrix(1,0,0,-1,37.0304,391.7945)"><tspan
            id="tspan366"
            y="0"
-           x="0">J</tspan>
-      </text>
+           x="0">J</tspan></text>
       <text
          id="text372"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.3038,377.6213)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.3038,377.6213)"><tspan
            id="tspan370"
            y="0"
-           x="0">K</tspan>
-      </text>
+           x="0">K</tspan></text>
       <text
          id="text376"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,36.2959,363.4481)">
-        <tspan
+         transform="matrix(1,0,0,-1,36.2959,363.4481)"><tspan
            id="tspan374"
            y="0"
-           x="0">L</tspan>
-      </text>
+           x="0">L</tspan></text>
       <text
          id="text380"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,32.6866,349.2748)">
-        <tspan
+         transform="matrix(1,0,0,-1,32.6866,349.2748)"><tspan
            id="tspan378"
            y="0"
-           x="0">M</tspan>
-      </text>
+           x="0">M</tspan></text>
       <text
          id="text384"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.4092,335.1016)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.4092,335.1016)"><tspan
            id="tspan382"
            y="0"
-           x="0">N</tspan>
-      </text>
+           x="0">N</tspan></text>
       <text
          id="text388"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.2677,320.9284)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.2677,320.9284)"><tspan
            id="tspan386"
            y="0"
-           x="0">O</tspan>
-      </text>
+           x="0">O</tspan></text>
       <text
          id="text392"
-         style="font-variant:normal;font-weight:bold;font-size:15.99937153px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-0.99285147,35.4212,306.8277)">
-        <tspan
+         style="font-variant:normal;font-weight:bold;font-size:15.9994px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1,0,0,-0.99285147,35.4212,306.8277)"><tspan
            id="tspan390"
            y="0"
-           x="0">P</tspan>
-      </text>
+           x="0">P</tspan></text>
       <text
          id="text396"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.1904,292.5819)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.1904,292.5819)"><tspan
            id="tspan394"
            y="0"
-           x="0">Q</tspan>
-      </text>
+           x="0">Q</tspan></text>
       <text
          id="text400"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.1746,278.4087)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.1746,278.4087)"><tspan
            id="tspan398"
            y="0"
-           x="0">R</tspan>
-      </text>
+           x="0">R</tspan></text>
       <text
          id="text404"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.8971,264.2355)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.8971,264.2355)"><tspan
            id="tspan402"
            y="0"
-           x="0">S</tspan>
-      </text>
+           x="0">S</tspan></text>
       <text
          id="text408"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.7171,250.0622)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.7171,250.0622)"><tspan
            id="tspan406"
            y="0"
-           x="0">T</tspan>
-      </text>
+           x="0">T</tspan></text>
       <text
          id="text412"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.4557,235.889)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.4557,235.889)"><tspan
            id="tspan410"
            y="0"
-           x="0">U</tspan>
-      </text>
+           x="0">U</tspan></text>
       <text
          id="text416"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,34.9478,221.7158)">
-        <tspan
+         transform="matrix(1,0,0,-1,34.9478,221.7158)"><tspan
            id="tspan414"
            y="0"
-           x="0">V</tspan>
-      </text>
+           x="0">V</tspan></text>
       <text
          id="text420"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,32.4278,207.5426)">
-        <tspan
+         transform="matrix(1,0,0,-1,32.4278,207.5426)"><tspan
            id="tspan418"
            y="0"
-           x="0">W</tspan>
-      </text>
+           x="0">W</tspan></text>
       <text
          id="text424"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.2718,193.3693)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.2718,193.3693)"><tspan
            id="tspan422"
            y="0"
-           x="0">X</tspan>
-      </text>
+           x="0">X</tspan></text>
       <text
          id="text428"
          style="font-variant:normal;font-weight:bold;font-size:16px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,35.5224,179.1961)">
-        <tspan
+         transform="matrix(1,0,0,-1,35.5224,179.1961)"><tspan
            id="tspan426"
            y="0"
-           x="0">Y</tspan>
-      </text>
+           x="0">Y</tspan></text>
       <text
          id="text432"
-         style="font-variant:normal;font-weight:bold;font-size:16.30500031px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(0.9813,0,0,-1,35.8546,164.8287)">
-        <tspan
+         style="font-variant:normal;font-weight:bold;font-size:16.305px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.9813,0,0,-1,35.8546,164.8287)"><tspan
            id="tspan430"
            y="0"
-           x="0">Z</tspan>
-      </text>
+           x="0">Z</tspan></text>
       <text
          id="text436"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,9.0683,522.1655)">
-        <tspan
+         transform="matrix(1,0,0,-1,9.0683,522.1655)"
+         y="0"><tspan
            id="tspan434"
            sodipodi:role="line"
            y="0"
-           x="0 1.8198">.-</tspan>
-      </text>
+           x="0 1.8198">.-</tspan></text>
       <text
          id="text440"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.7723,507.9923)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.7723,507.9923)"
+         y="0"><tspan
            id="tspan438"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.5840001 6.7199998">-...</tspan>
-      </text>
+           x="0 2.448 4.5840001 6.7199998">-...</tspan></text>
       <text
          id="text444"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.7751,493.8191)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.7751,493.8191)"
+         y="0"><tspan
            id="tspan442"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.2687001 6.7167001">-.-.</tspan>
-      </text>
+           x="0 2.448 4.2687001 6.7167001">-.-.</tspan></text>
       <text
          id="text448"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.8409,479.6459)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.8409,479.6459)"
+         y="0"><tspan
            id="tspan446"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.5840001">-..</tspan>
-      </text>
+           x="0 2.448 4.5840001">-..</tspan></text>
       <text
          id="text452"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,10.139,465.4511)">
-        <tspan
+         transform="matrix(1,0,0,-1,10.139,465.4511)"><tspan
            id="tspan450"
            y="0"
-           x="0">.</tspan>
-      </text>
+           x="0">.</tspan></text>
       <text
          id="text456"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.931,451.2994)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.931,451.2994)"
+         y="0"><tspan
            id="tspan454"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999 3.9568999 6.4049001">..-.</tspan>
-      </text>
+           x="0 2.1359999 3.9568999 6.4049001">..-.</tspan></text>
       <text
          id="text460"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.685,437.1262)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.685,437.1262)"
+         y="0"><tspan
            id="tspan458"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.8959999">--.</tspan>
-      </text>
+           x="0 2.448 4.8959999">--.</tspan></text>
       <text
          id="text464"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.9282,422.9529)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.9282,422.9529)"
+         y="0"><tspan
            id="tspan462"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999 4.2719998 6.408">....</tspan>
-      </text>
+           x="0 2.1359999 4.2719998 6.408">....</tspan></text>
       <text
          id="text468"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,9.0655,408.7797)">
-        <tspan
+         transform="matrix(1,0,0,-1,9.0655,408.7797)"
+         y="0"><tspan
            id="tspan466"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999">..</tspan>
-      </text>
+           x="0 2.1359999">..</tspan></text>
       <text
          id="text472"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.6192,394.6065)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.6192,394.6065)"
+         y="0"><tspan
            id="tspan470"
            sodipodi:role="line"
            y="0"
-           x="0 1.8196 4.2676001 6.7156">.---</tspan>
-      </text>
+           x="0 1.8196 4.2676001 6.7156">.---</tspan></text>
       <text
          id="text476"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.8437,380.4333)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.8437,380.4333)"
+         y="0"><tspan
            id="tspan474"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.2690001">-.-</tspan>
-      </text>
+           x="0 2.448 4.2690001">-.-</tspan></text>
       <text
          id="text480"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.931,366.26)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.931,366.26)"
+         y="0"><tspan
            id="tspan478"
            sodipodi:role="line"
            y="0"
-           x="0 1.8196 4.2676001 6.4036002">.-..</tspan>
-      </text>
+           x="0 1.8196 4.2676001 6.4036002">.-..</tspan></text>
       <text
          id="text484"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,8.7537,352.0868)">
-        <tspan
+         transform="matrix(1,0,0,-1,8.7537,352.0868)"
+         y="0"><tspan
            id="tspan482"
            sodipodi:role="line"
            y="0"
-           x="0 2.448">--</tspan>
-      </text>
+           x="0 2.448">--</tspan></text>
       <text
          id="text488"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,8.9096,337.9136)">
-        <tspan
+         transform="matrix(1,0,0,-1,8.9096,337.9136)"
+         y="0"><tspan
            id="tspan486"
            sodipodi:role="line"
            y="0"
-           x="0 2.448">-.</tspan>
-      </text>
+           x="0 2.448">-.</tspan></text>
       <text
          id="text492"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.5291,323.7403)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.5291,323.7403)"
+         y="0"><tspan
            id="tspan490"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.8959999">---</tspan>
-      </text>
+           x="0 2.448 4.8959999">---</tspan></text>
       <text
          id="text496"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.7751,309.5671)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.7751,309.5671)"
+         y="0"><tspan
            id="tspan494"
            sodipodi:role="line"
            y="0"
-           x="0 1.8196 4.2676001 6.7156">.--.</tspan>
-      </text>
+           x="0 1.8196 4.2676001 6.7156">.--.</tspan></text>
       <text
          id="text500"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.6192,295.3939)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.6192,295.3939)"
+         y="0"><tspan
            id="tspan498"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.8959999 6.7178001">--.-</tspan>
-      </text>
+           x="0 2.448 4.8959999 6.7178001">--.-</tspan></text>
       <text
          id="text504"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.9997,281.2207)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.9997,281.2207)"
+         y="0"><tspan
            id="tspan502"
            sodipodi:role="line"
            y="0"
-           x="0 1.8196 4.2676001">.-.</tspan>
-      </text>
+           x="0 1.8196 4.2676001">.-.</tspan></text>
       <text
          id="text508"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.9968,267.0474)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.9968,267.0474)"
+         y="0"><tspan
            id="tspan506"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999 4.2719998">...</tspan>
-      </text>
+           x="0 2.1359999 4.2719998">...</tspan></text>
       <text
          id="text512"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,9.9782,252.8742)">
-        <tspan
+         transform="matrix(1,0,0,-1,9.9782,252.8742)"><tspan
            id="tspan510"
            y="0"
-           x="0">-</tspan>
-      </text>
+           x="0">-</tspan></text>
       <text
          id="text516"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.9997,238.701)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.9997,238.701)"
+         y="0"><tspan
            id="tspan514"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999 3.9568999">..-</tspan>
-      </text>
+           x="0 2.1359999 3.9568999">..-</tspan></text>
       <text
          id="text520"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.9355,224.5754)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.9355,224.5754)"
+         y="0"><tspan
            id="tspan518"
            sodipodi:role="line"
            y="0"
-           x="0 2.1359999 4.2719998 6.0945001">...-</tspan>
-      </text>
+           x="0 2.1359999 4.2719998 6.0945001">...-</tspan></text>
       <text
          id="text524"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,7.8437,210.3545)">
-        <tspan
+         transform="matrix(1,0,0,-1,7.8437,210.3545)"
+         y="0"><tspan
            id="tspan522"
            sodipodi:role="line"
            y="0"
-           x="0 1.8198 4.2677999">.--</tspan>
-      </text>
+           x="0 1.8198 4.2677999">.--</tspan></text>
       <text
          id="text528"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.7751,196.1813)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.7751,196.1813)"
+         y="0"><tspan
            id="tspan526"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.5840001 6.4060001">-..-</tspan>
-      </text>
+           x="0 2.448 4.5840001 6.4060001">-..-</tspan></text>
       <text
          id="text532"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.6192,182.0081)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.6192,182.0081)"
+         y="0"><tspan
            id="tspan530"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.2687001 6.7167001">-.--</tspan>
-      </text>
+           x="0 2.448 4.2687001 6.7167001">-.--</tspan></text>
       <text
          id="text536"
          style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,6.6163,167.8348)">
-        <tspan
+         transform="matrix(1,0,0,-1,6.6163,167.8348)"
+         y="0"><tspan
            id="tspan534"
            sodipodi:role="line"
            y="0"
-           x="0 2.448 4.8959999 7.0320001">--..</tspan>
-      </text>
+           x="0 2.448 4.8959999 7.0320001">--..</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path538"
@@ -3021,291 +2869,239 @@
          y="-207.02092"
          x="523.73669"
          id="text436-2"
-         style="font-variant:normal;font-weight:bold;font-size:7.99999952px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
-         transform="scale(1,-1)">
-        <tspan
-           style="stroke-width:0.99999994"
+         style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1"
+         transform="scale(1,-1)"><tspan
+           style="stroke-width:1"
            id="tspan434-5"
            sodipodi:role="line"
            y="-207.02092"
-           x="523.73669 525.55652">.-</tspan>
-      </text>
+           x="523.73669 525.55652">.-</tspan></text>
     </g>
     <text
        y="136.78319"
        x="122.03854"
        id="text228-1"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan226-8"
          y="136.78319"
-         x="122.03854">A</tspan>
-    </text>
+         x="122.03854">A</tspan></text>
     <text
        y="136.78319"
        x="127.07014"
        id="text232-5"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan230-7"
          y="136.78319"
-         x="127.07014">B</tspan>
-    </text>
+         x="127.07014">B</tspan></text>
     <text
        y="136.78319"
        x="132.21344"
        id="text236-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan234-1"
          y="136.78319"
-         x="132.21344">C</tspan>
-    </text>
+         x="132.21344">C</tspan></text>
     <text
        y="136.78319"
        x="136.87994"
        id="text240-6"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan238-8"
          y="136.78319"
-         x="136.87994">D</tspan>
-    </text>
+         x="136.87994">D</tspan></text>
     <text
        y="136.78319"
        x="142.30446"
        id="text244-2"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan242-0"
          y="136.78319"
-         x="142.30446">E</tspan>
-    </text>
+         x="142.30446">E</tspan></text>
     <text
        y="141.77492"
        x="122.36092"
        id="text248-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan246-8"
          y="141.77492"
-         x="122.36092">F</tspan>
-    </text>
+         x="122.36092">F</tspan></text>
     <text
        y="141.78319"
        x="127.02467"
        id="text252-1"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan250-3"
          y="141.78319"
-         x="127.02467">G</tspan>
-    </text>
+         x="127.02467">G</tspan></text>
     <text
        y="141.78319"
        x="131.96953"
        id="text256-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan254-2"
          y="141.78319"
-         x="131.96953">H</tspan>
-    </text>
+         x="131.96953">H</tspan></text>
     <text
        y="141.78319"
        x="137.99753"
        id="text260-4"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan258-9"
          y="141.78319"
-         x="137.99753">I</tspan>
-    </text>
+         x="137.99753">I</tspan></text>
     <text
        y="141.76389"
        x="143.00313"
        id="text264-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan262-2"
          y="141.76389"
-         x="143.00313">J</tspan>
-    </text>
+         x="143.00313">J</tspan></text>
     <text
        y="146.78316"
        x="122.05914"
        id="text268-5"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan266-0"
          y="146.78316"
-         x="122.05914">K</tspan>
-    </text>
+         x="122.05914">K</tspan></text>
     <text
        y="146.79143"
        x="127.38158"
        id="text272-8"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan270-4"
          y="146.79143"
-         x="127.38158">L</tspan>
-    </text>
+         x="127.38158">L</tspan></text>
     <text
        y="146.77489"
        x="131.28328"
        id="text276-8"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan274-8"
          y="146.77489"
-         x="131.28328">M</tspan>
-    </text>
+         x="131.28328">M</tspan></text>
     <text
        y="146.7804"
        x="136.89096"
        id="text280-4"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan278-1"
          y="146.7804"
-         x="136.89096">N</tspan>
-    </text>
+         x="136.89096">N</tspan></text>
     <text
        y="146.78316"
        x="141.84145"
        id="text284-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan282-8"
          y="146.78316"
-         x="141.84145">O</tspan>
-    </text>
+         x="141.84145">O</tspan></text>
     <text
        y="151.77487"
        x="122.14043"
        id="text288-9"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan286-6"
          y="151.77487"
-         x="122.14043">P</tspan>
-    </text>
+         x="122.14043">P</tspan></text>
     <text
        y="151.77487"
        x="127.03844"
        id="text296-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan294-8"
          y="151.77487"
-         x="127.03844">R</tspan>
-    </text>
+         x="127.03844">R</tspan></text>
     <text
        y="151.78313"
        x="132.41188"
        id="text300-4"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan298-7"
          y="151.78313"
-         x="132.41188">S</tspan>
-    </text>
+         x="132.41188">S</tspan></text>
     <text
        y="151.77487"
        x="137.3526"
        id="text304-0"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan302-9"
          y="151.77487"
-         x="137.3526">T</tspan>
-    </text>
+         x="137.3526">T</tspan></text>
     <text
        y="151.7597"
        x="141.90759"
        id="text308-6"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan306-9"
          y="151.7597"
-         x="141.90759">U</tspan>
-    </text>
+         x="141.90759">U</tspan></text>
     <text
        y="156.78319"
        x="122.08138"
        id="text312-9"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan310-4"
          y="156.78319"
-         x="122.08138">V</tspan>
-    </text>
+         x="122.08138">V</tspan></text>
     <text
        y="156.78319"
        x="126.19479"
        id="text316-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan314-7"
          y="156.78319"
-         x="126.19479">W</tspan>
-    </text>
+         x="126.19479">W</tspan></text>
     <text
        y="156.78319"
        x="132.20001"
        id="text320-9"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan318-5"
          y="156.78319"
-         x="132.20001">X</tspan>
-    </text>
+         x="132.20001">X</tspan></text>
     <text
        y="156.78319"
        x="137.28448"
        id="text324-5"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan322-3"
          y="156.78319"
-         x="137.28448">Y</tspan>
-    </text>
+         x="137.28448">Y</tspan></text>
     <text
        y="156.78319"
        x="142.38992"
        id="text328-6"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="stroke-width:0.352778"
          id="tspan326-2"
          y="156.78319"
-         x="142.38992">Z</tspan>
-    </text>
+         x="142.38992">Z</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3316,299 +3112,245 @@
        y="202.00523"
        x="110.389"
        id="text1537"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535"
          y="202.00523"
-         x="108.74729">B</tspan>
-    </text>
+         x="108.74729">B</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581"
        x="110.389"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="108.74729"
          y="207.00523"
          id="tspan1579"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">J</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">J</tspan></text>
     <text
        y="212.00522"
        x="110.389"
        id="text1625"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623"
          y="212.00522"
-         x="108.74729">S</tspan>
-    </text>
+         x="108.74729">S</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1797"
        x="145.38901"
-       y="201.87518">
-      <tspan
+       y="201.87518"><tspan
          x="143.7473"
          y="201.87518"
          id="tspan1795"
-         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.35277775">Ch</tspan>
-    </text>
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.352778">Ch</tspan></text>
     <text
        y="207.00523"
        x="145.38901"
        id="text1803"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1801"
          y="207.00523"
-         x="143.7473">Q</tspan>
-    </text>
+         x="143.7473">Q</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1809"
        x="145.38901"
-       y="212.00522">
-      <tspan
+       y="212.00522"><tspan
          x="143.7473"
          y="212.00522"
          id="tspan1807"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">Z</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">Z</tspan></text>
     <text
        y="202.00523"
        x="105.38902"
        id="text1537-2"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-8"
          y="202.00523"
-         x="103.74731">A</tspan>
-    </text>
+         x="103.74731">A</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-6"
        x="105.38902"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="103.74731"
          y="207.00523"
          id="tspan1579-0"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">I</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">I</tspan></text>
     <text
        y="212.00522"
        x="105.38902"
        id="text1625-0"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-1"
          y="212.00522"
-         x="103.74731">R</tspan>
-    </text>
+         x="103.74731">R</tspan></text>
     <text
        y="202.00523"
        x="120.38899"
        id="text1537-1"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-3"
          y="202.00523"
-         x="118.74728">D</tspan>
-    </text>
+         x="118.74728">D</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-7"
        x="120.38899"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="118.74728"
          y="207.00523"
          id="tspan1579-2"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">L</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">L</tspan></text>
     <text
        y="212.00522"
        x="120.38899"
        id="text1625-4"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-5"
          y="212.00522"
-         x="118.74728">U</tspan>
-    </text>
+         x="118.74728">U</tspan></text>
     <text
        y="202.00523"
        x="115.38902"
        id="text1537-2-0"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-8-2"
          y="202.00523"
-         x="113.7473">C</tspan>
-    </text>
+         x="113.7473">C</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-6-0"
        x="115.38902"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="113.7473"
          y="207.00523"
          id="tspan1579-0-9"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">K</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">K</tspan></text>
     <text
        y="212.00522"
        x="115.38902"
        id="text1625-0-4"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-1-5"
          y="212.00522"
-         x="113.7473">T</tspan>
-    </text>
+         x="113.7473">T</tspan></text>
     <text
        y="202.00523"
        x="130.38901"
        id="text1537-0"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-37"
          y="202.00523"
-         x="128.74731">F</tspan>
-    </text>
+         x="128.74731">F</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-8"
        x="130.38901"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="128.74731"
          y="207.00523"
          id="tspan1579-6"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">N</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">N</tspan></text>
     <text
        y="212.00522"
        x="130.38901"
        id="text1625-46"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-7"
          y="212.00522"
-         x="128.74731">W</tspan>
-    </text>
+         x="128.74731">W</tspan></text>
     <text
        y="202.00523"
        x="125.38905"
        id="text1537-2-09"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-8-7"
          y="202.00523"
-         x="123.74732">E</tspan>
-    </text>
+         x="123.74732">E</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-6-9"
        x="125.38905"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="123.74732"
          y="207.00523"
          id="tspan1579-0-7"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">M</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">M</tspan></text>
     <text
        y="212.00522"
        x="125.38905"
        id="text1625-0-5"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-1-3"
          y="212.00522"
-         x="123.74732">V</tspan>
-    </text>
+         x="123.74732">V</tspan></text>
     <text
        y="202.00523"
        x="140.38902"
        id="text1537-8"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-379"
          y="202.00523"
-         x="138.74731">H</tspan>
-    </text>
+         x="138.74731">H</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-78"
        x="140.38902"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="138.74731"
          y="207.00523"
          id="tspan1579-7"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">P</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">P</tspan></text>
     <text
        y="212.00522"
        x="140.38902"
        id="text1625-1"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-9"
          y="212.00522"
-         x="138.74731">Y</tspan>
-    </text>
+         x="138.74731">Y</tspan></text>
     <text
        y="202.00523"
        x="135.38904"
        id="text1537-2-9"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1535-8-8"
          y="202.00523"
-         x="133.74733">G</tspan>
-    </text>
+         x="133.74733">G</tspan></text>
     <text
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text1581-6-5"
        x="135.38904"
-       y="207.00523">
-      <tspan
+       y="207.00523"><tspan
          x="133.74733"
          y="207.00523"
          id="tspan1579-0-8"
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775">O</tspan>
-    </text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778">O</tspan></text>
     <text
        y="212.00522"
        x="135.38904"
        id="text1625-0-3"
-       style="font-variant:normal;font-weight:bold;font-size:5.64444399px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
-      <tspan
-         style="text-align:center;text-anchor:middle;stroke-width:0.35277775"
+       style="font-variant:normal;font-weight:bold;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;display:inline;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.352778"
          id="tspan1623-1-7"
          y="212.00522"
-         x="133.74733">X</tspan>
-    </text>
+         x="133.74733">X</tspan></text>
     <g
        id="g2008"
        style="stroke:#b3b3b3">

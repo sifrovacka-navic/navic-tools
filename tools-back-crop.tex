@@ -3,16 +3,16 @@
 	\usepackage{xcolor}
     \usepackage{geometry}        
 		\geometry{
-			papersize={42mm,153mm},
-			total={42mm,153mm},
+			papersize={46mm,153.5mm},
+			total={46mm,153.5mm},
 			top=0mm,
 			left=0mm, 
 		}   
     \usepackage[
     % set width and height to a4 width and height + 6mm
-    width=5.0truecm, height=16.1truecm,
+    width=5.4truecm, height=16.1truecm,
     % use any combination of these options to add different cut markings
-    cam, color=white, pdftex, center
+    cam, color=black, pdftex, center
     ]{crop}
   
     \begin{filecontents}{\jobname.xmpdata}
@@ -20,12 +20,13 @@
     \Title{Šifrovací pomůcky} 
     \Author{Organizátoři hry Navíc}
     \end{filecontents}
+    \definecolor{sand}{rgb}{0.913, 0.867, 0.686}
     
 \begin{document}
-\pagecolor{black}
+\pagecolor{sand}
 \pagestyle{empty}
 \noindent
-\includegraphics[width=42mm]{back.pdf}
+\includegraphics[width=46mm]{back.pdf}
 
 \end{document}
 
