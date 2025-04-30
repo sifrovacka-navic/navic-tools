@@ -56,6 +56,6 @@ cmyk:
 	gs -o notebook-sheet-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet.pdf
 	gs -o notebook-sheet-hex-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet-hex.pdf
 
-notebook: tools cover sheet sheet-hex cmyk
+notebook: tools cover sheet sheet-hex
 
 blok: notebook
