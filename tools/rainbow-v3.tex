@@ -1,0 +1,43 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={12mm,39mm},
+			total={10mm,37mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{c}
+\cellcolor{OrangeRed} \pismeno{Č:R} ~\\
+\cellcolor{BurntOrange} \pismeno{O:O} ~\\
+\cellcolor{Goldenrod} \pismeno{Ž:Y} ~\\
+\cellcolor{ForestGreen} \pismeno{Z:G} ~\\
+\cellcolor{NavyBlue} \pismeno{M:B} ~\\
+\cellcolor{BlueViolet} \pismeno{I:I} ~\\
+\cellcolor{Plum} \pismeno{F:V} ~\\
+\end{tabularx}
+
+\end{document}

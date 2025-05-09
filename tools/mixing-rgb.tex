@@ -1,0 +1,48 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={46mm,40mm},
+			total={44mm,38mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+       
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    
+    \newcommand{\pismeno}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+    
+    \usepackage{amsfonts}
+    \usepackage{amsmath}
+
+\begin{document}
+\pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{l}
+\textbf{Míchání barev RGB} \\
+\end{tabularx}
+
+\vspace{-3mm}
+\Large\noindent
+\begin{align*}
+{\color{green} \mathbf{G}} + {\color{blue} \mathbf{B}} &= {\color{cyan} \mathbf{C}} \\[-1mm]
+{\color{red} \mathbf{R}} + {\color{blue} \mathbf{B}} &= {\color{magenta} \mathbf{M}} \\[-1mm]
+{\color{red} \mathbf{R}} + {\color{green} \mathbf{G}} &= {\color{yellow} \mathbf{Y}} \\[-1mm]
+{\color{red} \mathbf{R}} + {\color{green} \mathbf{G}} + {\color{blue} \mathbf{B}} &= {\color{white} \mathbf{W}}
+\end{align*}
+\end{document}

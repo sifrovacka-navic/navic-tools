@@ -4,10 +4,11 @@ PDFTEX=pdflatex -interaction=nonstopmode
 
 all: toolset notebook
 
-tools: 
+tools-src: 
 	cd tools && $(MAKE)
 
-print: front.pdf back.pdf | print.pdf
+tools: tools-front.pdf tools-back.pdf | tools-print.pdf
+	pdfunite tools-front.pdf tools-back.pdf tools.pdf
 
 %.pdf: %.tex 
 	rm -f %.xmpdata %.aux %.pdf
@@ -28,20 +29,21 @@ light: tools-light print convert
 tools-light: 
 	cd tools && $(MAKE) light
 
-crop: back.pdf front.pdf
+crop: tools-back.pdf tools-front.pdf
 	$(PDFTEX) tools-back-crop.tex
 	$(PDFTEX) tools-back-crop.tex
 	$(PDFTEX) tools-front-crop.tex
 	$(PDFTEX) tools-front-crop.tex
-	pdfunite tools-front-crop.pdf tools-back-crop.pdf tools.pdf
+	pdfunite tools-front-crop.pdf tools-back-crop.pdf tools-crop.pdf
 
 cover: notebook-cover.pdf
 
 sheet:
-	inkscape notebook-sheet.svg --export-pdf=notebook-sheet.pdf
+	inkscape notebook-sheet.svg --export-type=pdf --export-filename=notebook-sheet.pdf
 
 sheet-hex:
-	inkscape notebook-sheet-hex.svg --export-pdf=notebook-sheet-hex.pdf
+	inkscape notebook-sheet-hex.svg --export-type=pdf --export-filename=notebook-sheet-hex.pdf
+	inkscape notebook-sheet-trihex.svg --export-type=pdf --export-filename=notebook-sheet-trihex.pdf
 	
 %.pdf: %.tex 
 	rm -f %.xmpdata %.aux %.pdf
@@ -56,6 +58,11 @@ cmyk:
 	gs -o notebook-sheet-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet.pdf
 	gs -o notebook-sheet-hex-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet-hex.pdf
 
-notebook: tools cover sheet sheet-hex
+grayscale:
+	gs -o notebook-sheet-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet.pdf
+	gs -o notebook-sheet-hex-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet-hex.pdf
+	gs -o notebook-sheet-trihex-grayscale.pdf -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -f notebook-sheet-trihex.pdf
+
+notebook: tools cover sheet sheet-hex grayscale
 
 blok: notebook
