@@ -29,12 +29,20 @@ light: tools-light print convert
 tools-light: 
 	cd tools && $(MAKE) light
 
-crop: tools-back.pdf tools-front.pdf
+tools-crop: tools-back.pdf tools-front.pdf
 	$(PDFTEX) tools-back-crop.tex
 	$(PDFTEX) tools-back-crop.tex
 	$(PDFTEX) tools-front-crop.tex
 	$(PDFTEX) tools-front-crop.tex
 	pdfunite tools-front-crop.pdf tools-back-crop.pdf tools-crop.pdf
+
+
+tools-wide-crop: tools-wide-back.pdf tools-wide-front.pdf
+	$(PDFTEX) tools-wide-back-crop.tex
+	$(PDFTEX) tools-wide-back-crop.tex
+	$(PDFTEX) tools-wide-front-crop.tex
+	$(PDFTEX) tools-wide-front-crop.tex
+	pdfunite tools-wide-front-crop.pdf tools-wide-back-crop.pdf tools-crop.pdf
 
 cover: notebook-cover.pdf
 
@@ -66,3 +74,13 @@ grayscale:
 notebook: tools cover sheet sheet-hex grayscale
 
 blok: notebook
+
+tools-wide: tools-wide-front.pdf tools-wide-back.pdf | tools-wide-print.pdf
+	pdfunite tools-wide-front.pdf tools-wide-back.pdf tools-wide.pdf
+
+tools-wide-crop: tools-back.pdf tools-front.pdf
+	$(PDFTEX) tools-wide-back-crop.tex
+	$(PDFTEX) tools-wide-back-crop.tex
+	$(PDFTEX) tools-wide-front-crop.tex
+	$(PDFTEX) tools-wide-front-crop.tex
+	pdfunite tools-wide-front-crop.pdf tools-wide-back-crop.pdf tools-wide-crop.pdf

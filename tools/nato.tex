@@ -1,0 +1,36 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+	\usepackage{geometry}
+		\geometry{
+            papersize={80mm,20mm},
+            total={78mm,18mm},
+			top=1mm,
+			left=1mm,
+			%height_spec, 
+		}
+         
+    \newlength{\temptextw}
+    \newlength{\tcw}
+    \setlength{\tcw}{0.25cm}
+    
+       
+    
+    \newcolumntype{L}{>{\raggedright\arraybackslash}X}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\kkey}[1]{\multicolumn{2}{P{2\tcw}}{#1}}
+
+\begin{document}
+\pagestyle{empty}
+% \pagecolor{black}%
+\color{white}
+\parindent=0cm
+\noindent\footnotesize
+Alfa, Bravo, Charlie, Delta, Echo,
+Foxtrot, Golf, Hotel, India, Juliett,
+Kilo, Lima, Mike, November, Oscar,
+Papa, Quebec, Romeo, Sierra,
+Tango, Uniform, Victor, Whiskey,
+X-ray, Yankee, Zulu
+\end{document}

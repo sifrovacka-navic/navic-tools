@@ -1,0 +1,61 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={123mm,11.3mm},
+            total={121mm,13.3mm},
+            top=1mm,
+            left=1mm,
+            %height_spec, 
+        }
+    
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    
+    \definecolor{lightgray}{gray}{0.8}
+    \newcount\numval
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+        
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\tdb}[1]{\raisebox{-0.11em}{\textbf{\large{#1}}}}
+    \newcommand{\tdbs}[1]{\raisebox{-0.11em}{\textbf{\small{#1}}}}
+    \newcommand{\ttt}[1]{\raisebox{-0.11em}{\large{\texttt{#1}}}}
+
+\begin{document}
+% \pagecolor{black}%
+\pagestyle{empty}
+\color{white}
+\parindent=0cm
+\noindent
+\hskip-2.25mm%
+\setlength{\tabcolsep}{1pt}
+\renewcommand*{\arraystretch}{1.0}
+\begin{tabularx}{\textwidth}{r@{\hskip -0.6pt}lllllllllll}
+$\pi=\,$3,&14159&26535&89793&23846&26433&83279&50288&41971&69399&37510\\
+$\mathrm{e}=\,$2,&71828&18284&59045&23536&02874&71352&66249&77572&47093&69995\\
+\end{tabularx}
+
+\end{document}
+
+% \begin{tabularx}{\textwidth}{YYYYYYYYY}
+% \multicolumn{9}{l}{\textbf{Řecká abeceda}} \\
+% \tdb{A} & \tdb{B} & \tdb{G} & \tdb{D} & \tdb{E} & \tdb{Z} & \tdb{É} & \tdb{Th} & \tdb{I} \\
+% \td{α} & \td{β} & \td{γ} & \td{δ} & \td{ε} & \td{ζ} & \td{η} & \td{θ} & \td{ι} \\
+% \td{Α} & \td{Β} & \td{Γ} & \td{Δ} & \td{Ε} & \td{Ζ} & \td{Η} & \td{Θ} & \td{Ι} \\
+% \hline        
+% \tdb{K} & \tdb{L} & \tdb{M} & \tdb{N} & \tdb{X} & \tdb{O} & \tdb{P} & \tdb{R} & \tdb{S} \\
+% \td{κ} & \td{λ} & \td{μ} & \td{ν} & \td{ξ} & \td{ο} & \td{π} & \td{ρ} & \td{σ} \\
+% \td{Κ} & \td{Λ} & \td{Μ} & \td{Ν} & \td{Ξ} & \td{Ο} & \td{Π} & \td{Ρ} & \td{Σ} \\
+% \hline        
+% \tdb{Th} & \tdb{Y} & \tdb{F} & \tdb{Ch} & \tdb{Ps} & \tdb{Ó} & \tdb{} & \tdb{} & \\
+% \td{τ} & \td{υ} & \td{φ} & \td{χ} & \td{ψ} & \td{ω} & \td{} & \td{} & \\
+% \td{Τ} & \td{Υ} & \td{Φ} & \td{Χ} & \td{Ψ} & \td{Ω} & \td{} & \td{} & \\
+% \end{tabularx}
+

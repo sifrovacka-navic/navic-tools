@@ -1,0 +1,50 @@
+\documentclass[12pt]{extarticle}
+    \input{packages}
+        \usepackage{geometry}
+        \geometry{
+            papersize={46mm,28mm},
+            total={44mm,26mm},
+            top=1mm,
+            left=1mm,
+            %height_spec, 
+        }
+    
+    \input{macros}
+    \setlength{\arrayrulewidth}{1.33\arrayrulewidth}
+    
+    \newlength{\temptextw}
+    \newlength{\tempnumw}
+    
+    \definecolor{lightgray}{gray}{0.8}
+    \newcount\numval
+    
+    \newcolumntype{Y}{>{\centering\arraybackslash}X}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    
+    \newcommand{\td}[1]{\raisebox{-0.11em}{\large{#1}}}
+    \newcommand{\tdb}[1]{\raisebox{-0.11em}{\textbf{\large{#1}}}}
+    \newcommand{\ttt}[1]{\raisebox{-0.11em}{\large{\texttt{#1}}}}
+
+\begin{document}
+% \pagecolor{black}%
+\pagestyle{empty}
+\color{white}
+\parindent=0cm
+\begin{center}
+\noindent
+\hskip-1.70mm%
+\setlength{\tabcolsep}{2pt}
+\renewcommand*{\arraystretch}{1.037}
+\begin{tabularx}{\textwidth}{r@{\hskip 8pt}ccc@{\hskip 5pt}|@{\hskip 5pt}r@{\hskip 8pt}ccc}
+\td{0} & \segdisp{0} & \flag{0} & \flag{0-nato} & \td{5} & \segdisp{5} & \flag{5} & \flag{5-nato} \\
+\td{1} & \segdisp{1} & \flag{1} & \flag{1-nato} & \td{6} & \segdisp{6} & \flag{6} & \flag{6-nato} \\
+\td{2} & \segdisp{2} & \flag{2} & \flag{2-nato} & \td{7} & \segdisp{7} & \flag{7} & \flag{7-nato} \\
+\td{3} & \segdisp{3} & \flag{3} & \flag{3-nato} & \td{8} & \segdisp{8} & \flag{8} & \flag{8-nato} \\
+\td{4} & \segdisp{4} & \flag{4} & \flag{4-nato} & \td{9} & \segdisp{9} & \flag{9} & \flag{9-nato} \\
+\end{tabularx}
+\end{center}
+\end{document}
+
+
+

@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="9.3250504pt"
    height="14.059143pt"
    viewBox="0 0 3.2896703 4.9597531"
    version="1.1"
    id="svg6901"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="dots-l6.svg">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="dots-l6.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs6895" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="-3.7290477"
-     inkscape:cy="11.1367"
+     inkscape:cx="1.7519833"
+     inkscape:cy="11.790374"
      inkscape:document-units="mm"
      inkscape:current-layer="g15102-7-3"
      showgrid="false"
@@ -37,13 +37,16 @@
      fit-margin-bottom="0.25"
      units="pt"
      inkscape:window-width="1920"
-     inkscape:window-height="1113"
-     inkscape:window-x="1920"
+     inkscape:window-height="1110"
+     inkscape:window-x="3840"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-center="true">
+     inkscape:snap-center="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="2.4756757,4.1444762"
        orientation="0,1"
@@ -93,25 +96,18 @@
        transform="matrix(0.04030123,0,0,0.04037236,1.8977283,242.04882)">
       <circle
          r="10.629921"
-         cy="56.692974"
-         cx="2327.9526"
-         transform="matrix(1.4545452,0,0,1.4545452,-1034.0926,-3181.5675)"
-         id="path15104-0-1"
-         style="fill:#000000;fill-opacity:1;stroke:#666666;stroke-width:3.50305963;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <circle
-         r="10.629921"
          cy="85.039429"
          cx="2327.9526"
          transform="matrix(1.4545452,0,0,1.4545452,-1034.0926,-3181.5675)"
          id="path15106-4-3"
-         style="fill:#ffffff;stroke:#666666;stroke-width:3.50305963;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;stroke:#ffffff;stroke-width:3.50305963;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
          r="10.629921"
          cy="113.38589"
          cx="2327.9526"
          transform="matrix(1.4545452,0,0,1.4545452,-1034.0926,-3181.5675)"
          id="path15108-8-6"
-         style="fill:#ffffff;stroke:#666666;stroke-width:3.50305963;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;stroke:#ffffff;stroke-width:3.50305963;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
          cy="-3099.105"
          cx="2393.2512"
@@ -130,6 +126,12 @@
          cx="2393.2512"
          id="path15114-3-1"
          style="fill:#808080;stroke:none;stroke-width:5.09535837;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         cy="-3099.105"
+         cx="2352.0198"
+         id="circle8444"
+         style="fill:#ffffff;stroke:none;stroke-width:5.09536;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="4.9626279" />
     </g>
   </g>
 </svg>

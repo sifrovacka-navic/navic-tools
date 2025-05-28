@@ -6,7 +6,8 @@ Created on Thu Jan 30 09:56:59 2020
 @author: podolnik
 """
 
-letters = list('abcdefghijklmnopqrstuvwxyz')
+letters = list('abcdefghijklmnopqrstuvwxyz0123459789')
+letters.extend([f'{i}-nato' for i in range(0, 10)])
 
 for l in letters:
     f_name = '{}.svg'.format(l)

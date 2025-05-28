@@ -1,0 +1,33 @@
+\documentclass{extarticle}
+    \usepackage{graphicx}
+	  \usepackage{xcolor}
+    \usepackage{geometry}        
+		\geometry{
+			papersize={92mm,155mm},
+			total={92mm,155mm},
+			top=0mm,
+			left=0mm, 
+		}   
+    \newcommand{\printsetname}{tools-wide-front}
+    
+    \usepackage[
+    % set width and height to a4 width and height + 6mm
+    width=14.2truecm, height=20.5truecm,
+    % use any combination of these options to add different cut markings
+    cam, color=black, pdftex, center
+    ]{crop}
+  
+
+    \begin{filecontents}{\jobname.xmpdata}
+    \Keywords{blok\sepšifrovací pomůcky}
+    \Title{Šifrovací pomůcky} 
+    \Author{Organizátoři hry Navíc}
+    \end{filecontents}
+    
+\begin{document}
+\pagecolor{black}
+\pagestyle{empty}
+\noindent
+\includegraphics[height=155mm]{tools-wide-front.pdf}
+\end{document}
+

@@ -1,0 +1,64 @@
+\documentclass{extarticle}
+    \usepackage{graphicx}
+    \usepackage{xcolor}
+    \usepackage{geometry}        
+		\geometry{
+			papersize={92mm,155mm},
+			total={92mm,155mm},
+			top=0mm,
+			left=0mm, 
+		}     
+    \newlength{\temph}
+    \setlength{\unitlength}{1mm}
+    \usepackage[{absolute,overlay}]{textpos}
+    \TPGrid[0mm,0mm]{92}{155}
+    
+    \begin{filecontents}{\jobname.xmpdata}
+    \Keywords{blok\sepšifrovací pomůcky}
+    \Title{Šifrovací pomůcky} 
+    \Author{Organizátoři hry Navíc}
+    \end{filecontents}
+    \definecolor{sand}{rgb}{0.913, 0.867, 0.686}
+
+\begin{document}
+\pagecolor{black}
+\pagestyle{empty}
+
+\begin{textblock}{92}(0,1)% {38mm,141.8mm}
+\vfill
+{\centerline{\noindent\includegraphics[scale=0.666]{tools/numbers-table.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{92}(0,96.5)% {38mm,141.8mm}
+\vfill
+{\centerline{\noindent\includegraphics[scale=0.666]{tools/czech.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{92}(0,110.5)% {38mm,141.8mm}
+\vfill
+{\centerline{\noindent\includegraphics[scale=0.666]{tools/greek-v2.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{92}(0,121)% {38mm,141.8mm}
+\vfill
+{\centerline{\noindent\includegraphics[scale=0.666]{tools/cyrillic-v2.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{70}(2,133)% {38mm,141.8mm}
+\vfill
+{\centerline{\noindent\includegraphics[scale=0.666]{tools/morse-tree.pdf}}}
+\vfill
+\end{textblock}
+
+\begin{textblock}{0}(64,133)% {38mm,141.8mm}
+\vfill
+{\includegraphics[width=18mm]{tools/xmino.pdf}}
+\vfill
+\end{textblock}
+
+\end{document}
+
